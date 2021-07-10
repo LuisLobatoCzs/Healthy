@@ -9,3 +9,11 @@
     background-color: #329ada;
     color: #fff;
 }
+.centerXY {
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+.size5{
+    font-size: 1.125rem;
+}

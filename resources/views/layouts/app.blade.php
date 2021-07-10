@@ -53,15 +53,16 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         @guest
-                            @if (Route::has('login'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}"><h5>{{ __('Iniciar Sesión') }}</h5></a>
-                                </li>
-                            @endif
-
                             @if (Route::has('register'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}"><h5>{{ __('Registrarse') }}</h5></a>
+                                </li>
+                            @endif
+                            @if (Route::has('login'))
+                                <li class="nav-item">
+                                    <a class="btn btn-success size5" href="{{ route('login') }}">
+                                       {{ __('Iniciar Sesión') }}
+                                    </a>
                                 </li>
                             @endif
                         @else
