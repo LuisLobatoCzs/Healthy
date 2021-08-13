@@ -1,0 +1,75 @@
+@extends('layouts.app')
+
+@section('content')
+<div class="bg-index">
+
+    <div class="col-12">
+        <!-- Encabezado -->
+        <div class="row justify-content-center p-5 sombra size3 resaltado">
+            <b><u>
+                Los mejores especialistas en la salud a un clic de distancia
+            </u></b>
+        </div>
+
+        <!-- Doctor -->
+        <div class="row justify-content-center">
+            <div class="col-3">
+                <img width="100%" src="{{ asset('img/doctor.png') }}">
+            </div>
+            <div class="col-9">
+                <div class="row justify-content-center size4 cabecera pt-5">
+                    <b>
+                    ¿Qué es Health&?
+                    </b>
+                </div>
+                <div class="row justify-content-center size5 cabecera pt-2">
+                    <b>
+                        Somos una empresa comprometida con la salud de nuestors usuarios¡Queremos que nuestros
+                        clientes se sientan bien desde la comodidad de su casa! por eso facilitamos el contacto con
+                        el contacto con especialistas de la salud como médicos generales, fisioterapeutas y enfermeras para que puedas
+                        facilitar tus servicios a usuarios que se encuentran cerca de ti.
+                    </b>
+                </div>
+            </div>
+        </div>
+
+        <!-- Celular -->
+        <div class="row justify-content-center">
+            <div class="col-4"></div>
+            <div class="col-8">
+                <img width="100%" src="{{ asset('img/como_funciona.png') }}">
+            </div>
+        </div>  
+        
+        <!-- Cuadro -->
+        <div class="row justify-content-center p-5 sombra">
+            <div class="col-10">
+                <div class="row justify-content-center size3 resaltado pb-3">
+                    <b>
+                    Pide al especialista de la salud que necesites de manera segura
+
+                    </b>
+                </div>
+
+                <div class="row justify-content-center size5 cabecera mb-3">
+                    <b>
+                        Health& cuenta con distintas funciones para que puedas recibir consultas de forma
+                        segura, desde filtros de verificaciones para los especialistas, hasta poder compartir 
+                        con alguna persona de confianza el servicio que estas recibiendo sin tener que
+                        compartir el motivo de tu consulta
+                    </b>
+                </div>
+
+                <div class="row justify-content-center size5 cabecera">
+                    <b><u>
+                        Conoce mas
+                    </u></b>
+                </div>
+            </div>        
+        </div>
+
+        <div class="row"><br><br><br><br></div>
+
+    </div>
+</div>
+@endsection

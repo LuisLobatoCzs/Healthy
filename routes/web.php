@@ -17,6 +17,33 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/nosotros', function () {
+    return view('nosotros');
+});
+
+Route::get('/usuarios', function () {
+    return view('usuarios');
+});
+
+Route::get('/especialista', function () {
+    return view('especialista');
+});
+
+Route::get('/seguridad', function () {
+    return view('seguridad');
+});
+
+Route::get('/ayuda', function () {
+    return view('ayuda');
+});
+
+Route::get('/registro-usuario', function () {
+    return view('rusuario');
+});
+Route::get('/registro-especialista', function () {
+    return view('respecialista');
+});
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
