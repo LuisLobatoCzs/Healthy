@@ -86,17 +86,17 @@
             
                 <img class="col-4" src="{{ asset('img/telefono.png') }}" >
                 
-                <div class="cuadro4" style="position: absolute; left:3rem; top:5rem">
+                <div class="cuadro4 col-4" style="position: absolute; left:3rem; top:5rem">
                     <b>Se acabaron las filas y las citas que nunca llegan</b>
                     <p>No hagas filas ni citas en hospitales</p>
                 </div>
 
-                <div class="cuadro4" style="position: absolute; right:3rem; top:15rem">
+                <div class="cuadro4 col-4" style="position: absolute; right:3rem; top:15rem">
                     <b>24/7</b>
                     <p>texto</p>
                 </div>
 
-                <div class="cuadro4" style="position: absolute; left:3rem; bottom:12rem">
+                <div class="cuadro4 col-4" style="position: absolute; left:3rem; bottom:12rem">
                     <b>Consultas seguras</b>
                     <p>texto</p>
                 </div>
