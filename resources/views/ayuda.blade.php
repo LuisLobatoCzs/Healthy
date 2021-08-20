@@ -264,17 +264,17 @@
                 <br>
                 <dl class="size5">
                     <dd> <a href="" class="resaltado" ng-click="selectorPE(1)"> ¿Qué documentos necesito para convertirme en especialista de Health&? </a> </dd>
-                    <dd> <a href="" class="resaltado"> ¿Qué áreas de especialistas se encuentran disponibles? </a> </dd>
-                    <dd> <a href="" class="resaltado"> Tengo una discapacidad ¿Puedo usar Health&? </a> </dd>
-                    <dd> <a href="" class="resaltado"> Tengo problemas con el registro </a> </dd>
-                    <dd> <a href="" class="resaltado"> ¿Cómo se calculan las tarifas en Health&? </a> </dd>
-                    <dd> <a href="" class="resaltado"> No puedo terminar el servicio </a> </dd>
-                    <dd> <a href="" class="resaltado"> ¿Cómo acepto una consulta? </a> </dd>
-                    <dd> <a href="" class="resaltado"> ¿Cómo puedo identificar a mi usuario cuando me encuentre en el domicilio? </a> </dd>
-                    <dd> <a href="" class="resaltado"> ¿Dónde puedo encontrar mi historial de consultas? </a> </dd>
-                    <dd> <a href="" class="resaltado"> Tuve una mala experiencia en una consulta </a> </dd>
-                    <dd> <a href="" class="resaltado"> ¿Qué debo hacer en caso de emergencía? </a> </dd>
-                    <dd> <a href="" class="resaltado"> ¿Cómo agrego un contacto de emergencía? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPE(2)"> ¿Qué áreas de especialistas se encuentran disponibles? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPE(3)"> Tengo una discapacidad ¿Puedo usar Health&? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPE(4)"> Tengo problemas con el registro </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPE(5)"> ¿Cómo se calculan las tarifas en Health&? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPE(6)"> No puedo terminar el servicio </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPE(7)"> ¿Cómo acepto una consulta? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPE(8)"> ¿Cómo puedo identificar a mi usuario cuando me encuentre en el domicilio? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPE(9)"> ¿Dónde puedo encontrar mi historial de consultas? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPE(10)"> Tuve una mala experiencia en una consulta </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPE(11)"> ¿Qué debo hacer en caso de emergencía? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPE(12)"> ¿Cómo agrego un contacto de emergencía? </a> </dd>
                 </dl>
             </div>
             <div class="col-6">
@@ -282,15 +282,184 @@
                     <!-- Inicio PE1 --> 
                     <div class="col-10 cuadro5 m-2" ng-show="pe1">
                         <div class="row p-3 justify-content-center cabecera size6">
-                            <b> <u>titulo </u></b>
+                            <b> <u> ¿Qué documentos necesito para convertirme en un especialista en Healthy? </u></b>
                         </div>
                         <div class="row pl-5 pr-5 pb-3 cabecera ">
                             <b>
-                                texto
+                            Para ser parte de nuestra comunidad de usuario Especialista, necesitarás:<br>
+                            ●	Cartilla de vacunación COVID<br>
+                            ●	Identificación oficial vigente (INE)<br>
+                            ●	Cedula profesional<br>
+                            ●	Certificado de no antecedentes penales federales (de no más de 3 meses de haber sido expedido)<br>
+                            ●	CURP<br>
+                            ●	Licencia de conducir (en caso de registrar algún vehículo o moto)<br><br>
+                            *Esta información puede cambiar en conformidad con las legislaciones locales.
+
                             </b>
                         </div>
                     </div>
-                    <!-- Fin PE1 --> 
+                    <!-- Fin PE1 -->
+                    <!-- Inicio PE2 --> 
+                    <div class="col-10 cuadro5 m-2" ng-show="pe2">
+                        <div class="row p-3 justify-content-center cabecera size6">
+                            <b> <u>¿Qué áreas de especialistas se encuentran disponibles?</u></b>
+                        </div>
+                        <div class="row pl-5 pr-5 pb-3 cabecera ">
+                            <b>
+                                Healthy cuenta 3 áreas de especialistas en el área de salud<br>
+                                ●	Medicina General<br>
+                                ●	Fisioterapia<br>
+                                ●	Enfermería <br>
+                                Escoge en la que te desempeñaras y se parte de esta gran comunidad hoy.
+
+                            </b>
+                        </div>
+                    </div>
+                    <!-- Fin PE2 --> 
+                    <!-- Inicio PE3 --> 
+                    <div class="col-10 cuadro5 m-2" ng-show="pe3">
+                        <div class="row p-3 justify-content-center cabecera size6">
+                            <b> <u>Tengo una discapacidad. ¿Puedo usar Healthy?</u></b>
+                        </div>
+                        <div class="row pl-5 pr-5 pb-3 cabecera ">
+                            <b>   
+                                En Healthy la inclusión es uno de nuestros pilares principales, 
+                                por eso sin importar tu discapacidad si eres un profesional y pasas 
+                                los filtros de seguridad puedes ser parte de nuestro equipo. 
+                                ¿Tienes dudas puntuales? Puede contactar con el Soporte de Healthy.
+                            </b>
+                        </div>
+                    </div>
+                    <!-- Fin PE3 -->
+                    <!-- Inicio PE4 --> 
+                    <div class="col-10 cuadro5 m-2" ng-show="pe4">
+                        <div class="row p-3 justify-content-center cabecera size6">
+                            <b> <u>Tengo Problemas con el registro</u></b>
+                        </div>
+                        <div class="row pl-5 pr-5 pb-3 cabecera ">
+                            <b>
+                            Pueden existir diversas razones por las cuales presentes problemas 
+                            con el registro, para poder apoyarte con la mejor solución, contacta 
+                            a Soporte Healthy.
+                            </b>
+                        </div>
+                    </div>
+                    <!-- Fin PE4 -->
+                    <!-- Inicio PE5 --> 
+                    <div class="col-10 cuadro5 m-2" ng-show="pe5">
+                        <div class="row p-3 justify-content-center cabecera size6">
+                            <b> <u>¿Cómo se calculan las tarifas en Healthy? </u></b>
+                        </div>
+                        <div class="row pl-5 pr-5 pb-3 cabecera ">
+                            <b>
+                            Todas nuestras tarifas se calculan con base en el horario en el 
+                            que se solicite el servicio además de la comisión de los especialistas.  
+                            </b>
+                        </div>
+                    </div>
+                    <!-- Fin PE5 -->
+                    <!-- Inicio PE6 --> 
+                    <div class="col-10 cuadro5 m-2" ng-show="pe6">
+                        <div class="row p-3 justify-content-center cabecera size6">
+                            <b> <u>No puedo terminar el servicio</u></b>
+                        </div>
+                        <div class="row pl-5 pr-5 pb-3 cabecera ">
+                            <b>
+                            Haz clic en el botón “Guía” para acceder de forma rápida al “registro 
+                            de consultas”, luego ve a “ayuda” y selecciona la opción que mejor se 
+                            adapte a tu problema.
+                            </b>
+                        </div>
+                    </div>
+                    <!-- Fin PE6 -->
+                    <!-- Inicio PE7 --> 
+                    <div class="col-10 cuadro5 m-2" ng-show="pe7">
+                        <div class="row p-3 justify-content-center cabecera size6">
+                            <b> <u>¿Cómo acepto una consulta?</u></b>
+                        </div>
+                        <div class="row pl-5 pr-5 pb-3 cabecera ">
+                            <b>
+                            Una vez que llegue la alerta de servicio, aparecerá en tu pantalla el 
+                            motivo de consulta y la dirección del paciente, en la parte inferior 
+                            de esta pestaña verás la opción de “Aceptar” o “Rechazar” de acuerdo con 
+                            la acción que desees realizar.
+                            </b>
+                        </div>
+                    </div>
+                    <!-- Fin PE7 -->
+                    <!-- Inicio PE8 --> 
+                    <div class="col-10 cuadro5 m-2" ng-show="pe8">
+                        <div class="row p-3 justify-content-center cabecera size6">
+                            <b> <u>¿Cómo puedo identificar a mi usuario cuando me encuentre en el domicilio?</u></b>
+                        </div>
+                        <div class="row pl-5 pr-5 pb-3 cabecera ">
+                            <b>
+                            Una vez que te encuentras en el domicilio corrobora los datos 
+                            proporcionados por el usuario, ya que este puede solicitar el 
+                            servicio para otra persona. Por tu seguridad, siempre confirma 
+                            que el usuario sea el que realizó la solicitud.
+                            </b>
+                        </div>
+                    </div>
+                    <!-- Fin PE8 -->
+                    <!-- Inicio PE9--> 
+                    <div class="col-10 cuadro5 m-2" ng-show="pe9">
+                        <div class="row p-3 justify-content-center cabecera size6">
+                            <b> <u>¿Dónde puedo encontrar mi historial de consultas?</u></b>
+                        </div>
+                        <div class="row pl-5 pr-5 pb-3 cabecera ">
+                            <b>
+                            Para encontrar tu historial de consultas: haz clic en “Guía” y 
+                            selecciona “Registro de consultas”. Por seguridad del Usuario los 
+                            registros se eliminan cada semana. 
+                            </b>
+                        </div>
+                    </div>
+                    <!-- Fin PE9 -->
+                    <!-- Inicio PE10 --> 
+                    <div class="col-10 cuadro5 m-2" ng-show="pe10">
+                        <div class="row p-3 justify-content-center cabecera size6">
+                            <b> <u>Tuve una mala experiencia en una consulta</u></b>
+                        </div>
+                        <div class="row pl-5 pr-5 pb-3 cabecera ">
+                            <b>
+                            Para reportar una mala experiencia con la aplicación o con alguno 
+                            de nuestros expertos haz clic en “Guía” y selecciona “Registro de consultas”, 
+                            después haz clic en la consulta donde ocurrió el problema y repórtalo. 
+                            </b>
+                        </div>
+                    </div>
+                    <!-- Fin PE10 -->
+                    <!-- Inicio PE11 --> 
+                    <div class="col-10 cuadro5 m-2" ng-show="pe11">
+                        <div class="row p-3 justify-content-center cabecera size6">
+                            <b> <u>¿Qué debo hacer en caso de Emergencia?</u></b>
+                        </div>
+                        <div class="row pl-5 pr-5 pb-3 cabecera ">
+                            <b>
+                            Durante una emergencia, debes presionar el botón de seguridad que se 
+                            encuentra en la pantalla principal. Este botón abre una línea directa con 
+                            el 911 (línea de emergencia en el estado de Puebla) donde podrás exponer 
+                            tu situación.
+                            </b>
+                        </div>
+                    </div>
+                    <!-- Fin PE11 -->
+                    <!-- Inicio PE12 --> 
+                    <div class="col-10 cuadro5 m-2" ng-show="pe12">
+                        <div class="row p-3 justify-content-center cabecera size6">
+                            <b> <u>¿Cómo agrego un contacto de emergencia? </u></b>
+                        </div>
+                        <div class="row pl-5 pr-5 pb-3 cabecera ">
+                            <b>
+                            Para agregar un contacto de emergencia haz clic en “Guía”, selecciona 
+                            “Mi Perfil” y presiona el botón “Contacto de emergencia”, ahí podrás 
+                            incluir o editar la información de tus contactos de emergencia.
+                            </b>
+                        </div>
+                    </div>
+                    <!-- Fin PE12 -->
+                    
                 </div>
         </div>
 
