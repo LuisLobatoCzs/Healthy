@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" ng-app="home">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,6 +20,14 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+
+    <!-- AngularJS -->
+    <script src="{{ asset('js/angularJS/1.8.2.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/homeController.js') }}"></script>
+    
+    <!-- SweetAlert -->
+    <script src="{{ asset('js/sweetAlert.js') }}"></script>
+
 </head>
 
 <style>
@@ -27,7 +35,7 @@
         font-family: 'Montserrat', sans-serif;
     }
 </style>
-<body>
+<body ng-controller="homeController">
     <div id="app">
         <nav class="navbar navbar-expand-md bg-nb shadow-sm">
             <div class="container">

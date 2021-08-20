@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="bg-index">
+<div class="bg-index" ng-init="hello()">
 
     <div class="col-12">
         <!-- Título -->
@@ -15,8 +15,8 @@
                 <b class="size4 cabecera"> Usuarios: </b>
                 <br>
                 <dl class="size5">
-                    <dd> <a href="#" class="resaltado"> ¿Cómo me registro para ser usuario? </a> </dd>
-                    <dd> <a href="#" class="resaltado"> ¿Cómo puedo cambiar la informacion en mi perfil? </a> </dd>
+                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(1)"> ¿Cómo me registro para ser usuario? </a> </dd>
+                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(2)"> ¿Cómo puedo cambiar la informacion en mi perfil? </a> </dd>
                     <dd> <a href="#" class="resaltado"> ¿Cómo agrego un contacto de emergencía? </a> </dd>
                     <dd> <a href="#" class="resaltado"> ¿Se realiza algún cargo de Pre-autorización? </a> </dd>
                     <dd> <a href="#" class="resaltado"> ¿Qué métodos de pago son aceptados en Health&? </a> </dd>
@@ -34,11 +34,12 @@
             </div>
             <div class="col-6">
                 <div class="row justify-content-center">
-                    <div class="col-10 cuadro2 m-2">
+                    <!-- Inicio PU1 --> 
+                    <div class="col-10 cuadro2 m-2" ng-show="pu1">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u>¿Cómo me registro para ser nuevo usuario? </u></b>
                         </div>
-                        <div class="row pl-5 pr-5 pb-3 cabecera">
+                        <div class="row pl-5 pr-5 pb-3 cabecera ">
                             <b>
                             Registrarte como usuario en Health& es muy sencillo.
                             Primero, agrega la forma de registro por la que te 
@@ -53,6 +54,19 @@
                             </b>
                         </div>
                     </div>
+                    <!-- Fin PU1 --> 
+                    <!-- Inicio PU2 --> 
+                    <div class="col-10 cuadro2 m-2" ng-show="pu2">
+                        <div class="row p-3 justify-content-center cabecera size6">
+                            <b> <u> Pregunta </u></b>
+                        </div>
+                        <div class="row pl-5 pr-5 pb-3 cabecera ">
+                            <b>
+                                Texto
+                            </b>
+                        </div>
+                    </div>
+                    <!-- Fin PU2 --> 
                 </div>
             </div>
         </div>
