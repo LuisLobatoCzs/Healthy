@@ -102,8 +102,7 @@
 .cuadro2 {
     background-color: #fff;
     border-radius: 5vh;
-    text-align: justify;
-    
+    text-align: justify; 
 }
 .cuadro3 {
     background-color: rgba(49, 144, 168, 0.2);
@@ -116,6 +115,11 @@
     color: #fff;
     border-radius: 5vh;
     padding: 3vh;
+}
+.cuadro5 {
+    background-color: rgba(49, 144, 168, 0.2);
+    border-radius: 5vh;
+    text-align: justify; 
 }
 
 .sombra{

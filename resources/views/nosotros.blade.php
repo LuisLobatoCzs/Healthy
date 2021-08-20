@@ -5,10 +5,14 @@
 
     <div class="col-12">
         <!-- Doctores -->
-        <div class="row justify-content-center pt-5 pb-5 cabecera">
-            <div class="col-5">
+        <div class="row justify-content-center pt-5 pb-5 cabecera color1" style="position: relative;">
+            <div class="col-10" style="position: absolute; left: 0px; top: 100px;">
+                <img width="100%" src="{{ asset('img/onda.png') }}">
+            </div>
+            <div class="col-5" style="position: relative;">
                 <img width="100%" src="{{ asset('img/doctores_celular.png') }}">
             </div>
+            
             <div class="col-6 pt-5">
                 <div class="row justify-content-center">
                     <b class="resaltado size4"> ¿Quiénes somos? </b>

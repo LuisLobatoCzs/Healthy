@@ -15,20 +15,20 @@
                 <b class="size4 cabecera"> Usuarios: </b>
                 <br>
                 <dl class="size5">
-                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(1)"> ¿Cómo me registro para ser usuario? </a> </dd>
-                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(2)"> ¿Cómo puedo cambiar la informacion en mi perfil? </a> </dd>
-                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(3)"> ¿Cómo agrego un contacto de emergencía? </a> </dd>
-                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(4)"> ¿Se realiza algún cargo de Pre-autorización? </a> </dd>
-                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(5)"> ¿Qué métodos de pago son aceptados en Health&? </a> </dd>
-                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(6)"> ¿Cómo se realiza el cobro del servicio? </a> </dd>
-                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(7)"> ¿Puedo programar una cita con algún especialista? </a> </dd>
-                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(8)"> ¿Puedo dar propinas? </a> </dd>
-                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(9)"> ¿Cómo solicito un servicio de algun especialista? </a> </dd>
-                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(10)"> ¿Cómo puedo identificar a mi especialista? </a> </dd>
-                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(11)"> ¿Qué debo hacer si se realizo un cobro sin recibir el servicio? </a> </dd>
-                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(12)"> ¿Cuenta con tarifa dinamica? </a> </dd>
-                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(13)"> ¿Puedo pedir Health& para algún conocido o familiar? </a> </dd>
-                    <dd> <a href="#" class="resaltado" ng-click="selectorPU(14)"> ¿Qué hacer en caso de emergencia? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPU(1)"> ¿Cómo me registro para ser usuario? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPU(2)"> ¿Cómo puedo cambiar la informacion en mi perfil? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPU(3)"> ¿Cómo agrego un contacto de emergencía? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPU(4)"> ¿Se realiza algún cargo de Pre-autorización? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPU(5)"> ¿Qué métodos de pago son aceptados en Health&? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPU(6)"> ¿Cómo se realiza el cobro del servicio? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPU(7)"> ¿Puedo programar una cita con algún especialista? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPU(8)"> ¿Puedo dar propinas? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPU(9)"> ¿Cómo solicito un servicio de algun especialista? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPU(10)"> ¿Cómo puedo identificar a mi especialista? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPU(11)"> ¿Qué debo hacer si se realizo un cobro sin recibir el servicio? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPU(12)"> ¿Cuenta con tarifa dinamica? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPU(13)"> ¿Puedo pedir Health& para algún conocido o familiar? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPU(14)"> ¿Qué hacer en caso de emergencia? </a> </dd>
                 </dl>
 
             </div>
@@ -259,26 +259,41 @@
 
         <!-- Especialistas-->
         <div class="row p-5">
-            <div class="col-12  ">
+            <div class="col-6">
                 <b class="size4 cabecera"> Especialistas: </b>
                 <br>
                 <dl class="size5">
-                    <dd> <a href="#" class="resaltado"> ¿Qué documentos necesito para convertirme en especialista de Health&? </a> </dd>
-                    <dd> <a href="#" class="resaltado"> ¿Qué áreas de especialistas se encuentran disponibles? </a> </dd>
-                    <dd> <a href="#" class="resaltado"> Tengo una discapacidad ¿Puedo usar Health&? </a> </dd>
-                    <dd> <a href="#" class="resaltado"> Tengo problemas con el registro </a> </dd>
-                    <dd> <a href="#" class="resaltado"> ¿Cómo se calculan las tarifas en Health&? </a> </dd>
-                    <dd> <a href="#" class="resaltado"> No puedo terminar el servicio </a> </dd>
-                    <dd> <a href="#" class="resaltado"> ¿Cómo acepto una consulta? </a> </dd>
-                    <dd> <a href="#" class="resaltado"> ¿Cómo puedo identificar a mi usuario cuando me encuentre en el domicilio? </a> </dd>
-                    <dd> <a href="#" class="resaltado"> ¿Dónde puedo encontrar mi historial de consultas? </a> </dd>
-                    <dd> <a href="#" class="resaltado"> Tuve una mala experiencia en una consulta </a> </dd>
-                    <dd> <a href="#" class="resaltado"> ¿Qué debo hacer en caso de emergencía? </a> </dd>
-                    <dd> <a href="#" class="resaltado"> ¿Cómo agrego un contacto de emergencía? </a> </dd>
+                    <dd> <a href="" class="resaltado" ng-click="selectorPE(1)"> ¿Qué documentos necesito para convertirme en especialista de Health&? </a> </dd>
+                    <dd> <a href="" class="resaltado"> ¿Qué áreas de especialistas se encuentran disponibles? </a> </dd>
+                    <dd> <a href="" class="resaltado"> Tengo una discapacidad ¿Puedo usar Health&? </a> </dd>
+                    <dd> <a href="" class="resaltado"> Tengo problemas con el registro </a> </dd>
+                    <dd> <a href="" class="resaltado"> ¿Cómo se calculan las tarifas en Health&? </a> </dd>
+                    <dd> <a href="" class="resaltado"> No puedo terminar el servicio </a> </dd>
+                    <dd> <a href="" class="resaltado"> ¿Cómo acepto una consulta? </a> </dd>
+                    <dd> <a href="" class="resaltado"> ¿Cómo puedo identificar a mi usuario cuando me encuentre en el domicilio? </a> </dd>
+                    <dd> <a href="" class="resaltado"> ¿Dónde puedo encontrar mi historial de consultas? </a> </dd>
+                    <dd> <a href="" class="resaltado"> Tuve una mala experiencia en una consulta </a> </dd>
+                    <dd> <a href="" class="resaltado"> ¿Qué debo hacer en caso de emergencía? </a> </dd>
+                    <dd> <a href="" class="resaltado"> ¿Cómo agrego un contacto de emergencía? </a> </dd>
                 </dl>
-
             </div>
+            <div class="col-6">
+                <div class="row justify-content-center">
+                    <!-- Inicio PE1 --> 
+                    <div class="col-10 cuadro5 m-2" ng-show="pe1">
+                        <div class="row p-3 justify-content-center cabecera size6">
+                            <b> <u>titulo </u></b>
+                        </div>
+                        <div class="row pl-5 pr-5 pb-3 cabecera ">
+                            <b>
+                                texto
+                            </b>
+                        </div>
+                    </div>
+                    <!-- Fin PE1 --> 
+                </div>
         </div>
+
 
     </div>
 </div>
