@@ -4,6 +4,9 @@
 .centrar {
     text-align: center;
 }
+.derecha {
+    text-align: right;
+}
 
 .color1 {
     background-color: #60b8e5;
@@ -25,6 +28,10 @@
     border: none;
     align-items: center;
     justify-content: center;
+}
+.centerY {
+    border: none;
+    align-items: center;
 }
 
 .size7{
