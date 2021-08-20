@@ -5,8 +5,8 @@
 
     <div class="col-12">
         <!-- Doctores -->
-        <div class="row justify-content-center pt-5 pb-5 cabecera color1" style="position: relative;">
-            <div class="col-10" style="position: absolute; left: 0px; top: 100px;">
+        <div class="row justify-content-center pt-5 cabecera" style="position: relative;">
+            <div class="col-12" style="position: absolute; left: -15px; top: 200px;">
                 <img width="100%" src="{{ asset('img/onda.png') }}">
             </div>
             <div class="col-5" style="position: relative;">
@@ -18,7 +18,7 @@
                     <b class="resaltado size4"> ¿Quiénes somos? </b>
                 </div>
                 <div class="row p-4 size6 justify-content-center">
-                    <div class="col-10 justificar">
+                    <div class="col-11 justificar">
                         <b>
                             Somos una empresa enfocada a la salud,
                             conectamos a usuarios que necesiten
@@ -34,8 +34,8 @@
 
         <!-- Cuadro blanco -->
         <div class="row justify-content-center">
-            <div class="col-11">
-                <div class="row justify-content-center resaltado cuadro3 size3">
+            <div class="col-12">
+                <div class="row justify-content-center resaltado cuadro3 size3" style="position: relative; left: -5px;">
                     <div class="col-8 centrar">
                         <b>
                             Creamos oportunidades de trabajo para escialistas del área de la salud
@@ -45,16 +45,39 @@
             </div>
         </div>
 
-        <!-- Más texto -->
+        <!-- Logo -->
         <div class="row justify-content-center mt-3">
-            <div class="col-8 centrar size6 mb-5">
+            <div class="col-8 centrar size2 mb-5">
                 <b>
-                    En Health& conocemos y entendemos las necesidades de los 
-                    profesionistas en la salud ante la falta de oportunidades laborales, por eso
-                    ofrecemos a nuestros colaboradores facilidades para brindar
+                    Con
+                </b>
+                <img width="20%" src="{{ asset('img/logo.png') }}" alt="logo" style="position: relative; top: 5px">
+            </div>
+        </div>
+
+        <!-- Cuadros -->
+        <div class="row justify-content-center">
+            <div class="col-3 m-1 cuadrofilas">
+                <img src="{{ asset('img/nofilas.png') }}" class="top img-fluid"> 
+                <img src="{{ asset('img/nofilas_2.png') }}" class="back img-fluid"> 
+            </div>
+            <div class="col-3 m-1 cuadroservicio24">
+                <img src="{{ asset('img/servicio24.png') }}" class="top img-fluid"> 
+                <img src="{{ asset('img/servicio24_2.png') }}" class="back img-fluid">
+            </div>
+            <div class="col-3 m-1 cuadroseguridad">
+                <img src="{{ asset('img/seguridad.png') }}" class="top img-fluid"> 
+                <img src="{{ asset('img/seguridad_2.png') }}" class="back img-fluid">
+            </div>
+        </div>
+
+        <!-- Texto -->
+        <div class="row justify-content-center">
+            <div class="col-7 centrar p-5 size5">
+                <b>
+                    En Healthy conocemos y entendemos las necesidades de los profesionistas en la salud ante la falta de oportunidades laborales, por eso ofrecemos a nuestros colaboradores facilidades para brindar servicios directamente en el domicilio del paciente con pagos justos que beneficien al paciente y al especialista.
                 </b>
             </div>
-            <div class="col-8 mb-5"><br></div>
         </div>
 
     </div>
