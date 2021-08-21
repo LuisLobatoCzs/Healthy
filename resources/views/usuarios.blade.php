@@ -37,7 +37,7 @@
         <div class="row justify-content-center">
             <div class="col-4"></div>
             <div class="col-8">
-                <img width="100%" src="{{ asset('img/como_funciona.png') }}">
+                <img width="100%" src="{{ asset('img/usuariocelular.png') }}">
             </div>
         </div>  
         
