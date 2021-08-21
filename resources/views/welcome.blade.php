@@ -82,25 +82,8 @@
     <div class="container">
         <!-- Teléfono -->
         <br><br><br>
-        <div class="row pt-3 justify-content-center" style="position: relative;">
-            
-                <img class="col-4" src="{{ asset('img/telefono.png') }}" >
-                
-                <div class="cuadro4 col-3" style="position: absolute; left:3rem; top:5rem">
-                    <b>Se acabaron las filas y las citas que nunca llegan</b>
-                    <p>No hagas filas ni citas en hospitales</p>
-                </div>
-
-                <div class="cuadro4 col-4" style="position: absolute; right:3rem; top:15rem">
-                    <b>24/7</b>
-                    <p>texto</p>
-                </div>
-
-                <div class="cuadro4 col-4" style="position: absolute; left:3rem; bottom:12rem">
-                    <b>Consultas seguras</b>
-                    <p>texto</p>
-                </div>
-
+        <div class="row justify-content-center" style="position: relative;">
+            <img class="col-12" src="{{ asset('img/pantallaCompleta.png') }}" >
         </div>
 
             
@@ -128,7 +111,7 @@
                     -Indica el motivo de la consulta.<br>
                     -Escoge el lugar en donde se realizará el servicio.<br>
                     -Recibe tu especialista en el lugar del servicio.<br>
-                </h5><br><br>
+                </h5>
 
                 <!-- Botones -->
                 <a href="/registro-usuario">

@@ -7,7 +7,7 @@
     <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner">
             <div class="carousel-item active" style="position: relative;">
-                <img class="d-block w-100" src="{{ asset('img/p1.png') }}">
+                <img class="d-block w-100" src="{{ asset('img/formularios/regUsuario.png') }}">
             </div>
         </div>
     </div>
@@ -46,6 +46,8 @@
                         <option value="">+52</option>
                     </select>
                     <input type="text" class="form-control col-6" placeholder="Número de teléfono">
+                    <object width="20vh"  style="position:relative; left: -25px;" data="{{ asset('img/formularios/telefono.svg') }}" type="image/svg+xml">
+                    </object>
                 </div>
                 <br><br>
 
@@ -56,6 +58,8 @@
                         </b>
                     </div>
                     <input type="text" class="form-control col-8" placeholder="Correo electrónico">
+                    <object width="30vh"  style="position:relative; left: -35px;" data="{{ asset('img/formularios/mail.svg') }}" type="image/svg+xml">
+                    </object>
                 </div>
                 <br><br>
 
@@ -66,6 +70,8 @@
                         </b>
                     </div>
                     <input type="text" class="form-control col-8" placeholder="Contraseña">
+                    <object width="20vh"  style="position:relative; left: -25px;" data="{{ asset('img/formularios/candado.svg') }}" type="image/svg+xml">
+                    </object>
                 </div>
                 <br><br>
 

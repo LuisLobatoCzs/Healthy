@@ -13,12 +13,12 @@
                 <img width="100%" src="{{ asset('img/doctores_celular.png') }}">
             </div>
             
-            <div class="col-6 pt-5">
+            <div class="col-6 pt-3">
                 <div class="row justify-content-center">
-                    <b class="resaltado size4"> ¿Quiénes somos? </b>
+                    <b class="resaltado size3"> ¿Quiénes somos? </b>
                 </div>
-                <div class="row p-4 size6 justify-content-center">
-                    <div class="col-11 justificar">
+                <div class="row p-4 size5 justify-content-center">
+                    <div class="col-12 justificar">
                         <b>
                             Somos una empresa enfocada a la salud,
                             conectamos a usuarios que necesiten
@@ -36,9 +36,11 @@
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="row justify-content-center resaltado cuadro3 size3" style="position: relative; left: -5px;">
-                    <div class="col-8 centrar">
+                    <div class="col-10 centrar">
                         <b>
-                            Creamos oportunidades de trabajo para escialistas del área de la salud
+                            Creamos oportunidades de trabajo para
+                            <br>
+                            escialistas del área de la salud
                         </b>
                     </div>
                 </div>
@@ -73,7 +75,7 @@
 
         <!-- Texto -->
         <div class="row justify-content-center">
-            <div class="col-7 centrar p-5 size5">
+            <div class="col-9 centrar p-5 size5">
                 <b>
                     En Healthy conocemos y entendemos las necesidades de los profesionistas en la salud ante la falta de oportunidades laborales, por eso ofrecemos a nuestros colaboradores facilidades para brindar servicios directamente en el domicilio del paciente con pagos justos que beneficien al paciente y al especialista.
                 </b>

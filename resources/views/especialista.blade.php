@@ -15,9 +15,9 @@
             
             <div class="col-6 pt-2">
                 <div class="row">
-                    <b class="resaltado size4"> ¿Qué es </b>
+                    <b class="size2 colorTexto3"> ¿Qué es </b>
                     <img width="20%" src="{{ asset('img/logo.png') }}" alt="logo" style="position: relative; top: 5px">
-                    <b class="resaltado size4"> ? </b>
+                    <b class="colorTexto3 size2"> ? </b>
                 </div>
                 <div class="row p-4 size6 justify-content-center">
                     <div class="col-11 justificar">
@@ -37,16 +37,20 @@
         <!-- Beneficios -->
         <div class="row justify-content-center pt-5">
             <div class="col-5 pt-4  ">
-                <img src="{{ asset('img/nube.png') }}" class="img-fluid" alt="">
+                <img src="{{ asset('img/nube.png') }}" class="img-fluid" alt="" style="position:relative; left:100px;">
             </div>
             <div class="col-7">
                 <div class="row pt-5 pb-4"></div>
-                <div class="row justify-content-center cabecera size4">
-                    <b> Beneficios! </b>
+                <div class="row justify-content-center cabecera size2">
+                    <b class="colorTexto3"> Beneficios! </b>
                 </div>
                 <div class="row justify-content-center size6 cabecera">
-                    <p><b>
-                        texto
+                    <p class="centrar"><b >
+                        Genera ingresos extra en donde estés <br> 
+                        Tú decides la cantidad de ingresos <br> que quieres obtener <br>
+                        Maneja tus tiempos fácilmente <br>
+                        Realiza consultas cuando quieras <br>
+                        Tú tienes el control de tus consultas
                     </b></p>
                     <br>
                 </div>
@@ -64,26 +68,27 @@
         </div>
 
         <!-- Teléfono -->
-        <div class="row justify-content-center mt-3">
+        <div class="row justify-content-center mt-3 pb-5">
             <div class="col-12 centrar size2 mb-1">
-                <b>
+                <b class="colorTexto3">
                     ¿Cómo funciona?
                 </b>
             </div>
-            <img src="{{ asset('img/    .png') }}" alt="Definir imagen aqui" class="col-6 img-fluid" >
+            <img src="{{ asset('img/1234.png') }}" alt="Definir imagen aqui" class="col-6 img-fluid" >
         </div>
 
         <!-- Texto y escudo -->
         <div class="row centerY derecha">
+            <div class="col-3"></div>
             <div class="col-6">
                 <div class="row justify-content-center size4">
-                    <b>
-                        Título
+                    <b class="colorTexto3 size2 centrar">
+                        Brinda consultas de forma segura
                     </b>
                 </div>
                 <div class="row justify-content-center size6">
-                    <b>
-                        Texto
+                    <b class="centrar">
+                        Contamos con normas estrictas de seguridad para nuestros usuarios y colaboradores, dentro de la aplicación puedes encontrar diferentes funciones para mantenerte seguro, <a href="">da clic aquí y conócelas todas.</a> 
                     </b>
                 </div>
             </div>
@@ -93,6 +98,26 @@
                     <img src="alternativo.png" alt="alternativa">
                 </object>
             </div>
+        </div>
+
+        <!-- Texto y botón -->
+        <div class="row justify-content-center pt-5 pb-5">
+            <b class="colorTexto3 size2 centrar col-10">
+                ¿Quieres ser parte de nuestro equipo de especialistas?
+            </b>
+            <b class="centrar col-11">
+                Da clic aquí para conocer nuestros requisitos 
+            </b>
+            
+            <p class="col-2 pt-3">
+                <a href="">
+                    <object class="img-fluid" data="{{ asset('img/requisitos.svg') }}" type="image/svg+xml">
+                        <!-- Imagen alternativa si el SVG no puede cargarse -->
+                        <img src="alternativo.png" alt="alternativa">
+                    </object>
+                </a>
+            </p>
+                
         </div>
 
     </div>
