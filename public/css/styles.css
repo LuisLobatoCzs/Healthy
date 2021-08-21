@@ -6,6 +6,7 @@
 }
 .derecha {
     text-align: right;
+    justify-content: right;
 }
 
 .color1 {
@@ -22,6 +23,16 @@
 .color4 {
     background-color:  #fff;
     color: #415B7A;
+}
+
+.colorTexto1{
+    color: #415B7A;
+}
+.colorTexto2{
+    color: #8ABBC7;
+}
+.colorTexto3{
+    color: #8fc1c7;
 }
 
 .centerXY {
@@ -128,6 +139,9 @@
     border-radius: 5vh;
     text-align: justify; 
 }
+.cuadroblanco{
+    background-color: #fff;
+}
 
 
 
@@ -174,7 +188,10 @@
 }
 
 .sombra{
-    box-shadow: 20px 20px 20px 20px rgba(49, 144, 168, 0.3);
+    box-shadow: 2px 2px 2px 1px rgba(166, 184, 189, 0.3);
+}
+.sombra2{
+    box-shadow: 2px 2px 2px 5px rgba(166, 184, 189, 0.3);
 }
 
 @media screen and (max-width: 800px) and (min-width: 0px) {
