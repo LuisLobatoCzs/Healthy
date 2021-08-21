@@ -40,7 +40,7 @@
                         <b>
                             Creamos oportunidades de trabajo para
                             <br>
-                            escialistas del área de la salud
+                            especialistas del área de la salud
                         </b>
                     </div>
                 </div>

@@ -1,13 +1,27 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="bg-index">
+<div class="col-12 bg-index">
 
     <!-- Carousel -->
-    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <div id="carousel" class="carousel slide row" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner">
             <div class="carousel-item active" style="position: relative;">
                 <img class="d-block w-100" src="{{ asset('img/formularios/regUsuario.png') }}">
+            </div>
+            <!-- Cuadro de texto flotante-->
+            <div style="position: absolute; left: 0px; bottom: 50px;" class="not_priority color4 p-3 col-md-5 col-sm-6 col-12">
+                <h1> <b> Regístrate como usuario </b> </h1> 
+            </div>
+            <!-- Botones -->
+            <div style="position: absolute; right: 0px; top: 50px;" class="not_priority p-3 col-md-2 col-sm-4">
+                <a href="#">
+                    <img width="100%" src="{{ asset('img/appstore.svg') }}">
+                </a>
+                <br><br>
+                <a href="#">
+                    <img width="100%" src="{{ asset('img/playstore.svg') }}">
+                </a>
             </div>
         </div>
     </div>
