@@ -96,7 +96,7 @@
                         </b>
                     </div>
                     <input type="text" class="form-control col-8" placeholder="Cédula profesional">
-                    <object width="20vh"  style="position:relative; left: -20px;" data="{{ asset('img/formularios/cedula.svg') }}" type="image/svg+xml">
+                    <object width="23vh"  style="position:relative; left: -25px;" data="{{ asset('img/formularios/cedula.svg') }}" type="image/svg+xml">
                     </object>
                 </div>
                 <br><br>
@@ -111,7 +111,7 @@
                     <div class="col-2"></div>
                     <div class="col-6">
                         <div class="row justify-content-center">
-                            <button class="btn btn-success edge size5"> &nbsp;&nbsp;&nbsp; Regístrate como usuario &nbsp;&nbsp;&nbsp; </button>
+                            <button class="btn color3 edge size5"> &nbsp;&nbsp;&nbsp; Regístrate como usuario &nbsp;&nbsp;&nbsp; </button>
                             <div class="col-9 size7 justificar">
                                 Al hacer clic en registrarme aceptas los términos de uso de Healthy y reconoces que leíste la política de privacidad. Además aceptas recibir llamadas o mensajes por SMS de Healthy.
                             </div>

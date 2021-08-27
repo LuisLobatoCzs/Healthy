@@ -5,7 +5,7 @@
 
     <div class="col-12">
         <!-- Encabezado -->
-        <div class="row justify-content-center p-5 sombra size2 resaltado">
+        <div class="row justify-content-center p-5 sombra size2 resaltado bg-blanco">
             <b><u>
                 Los mejores especialistas en la salud a un clic de distancia
             </u></b>

@@ -43,7 +43,9 @@
                     <img width="200" src="{{ asset('img/logo.png') }}">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="colorTexto1"> 
+                        <b>Menú</b>
+                    </span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -57,19 +59,19 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto pt-5 pb-0">
                         <li class="nav-item">   
-                            <a class="nav-link cabecera" href="/nosotros"><h5><b>Nosotros</b> |</h5></a>
+                            <a class="nav-link cabecera" href="/nosotros"><h5><b>Nosotros</b> <span class="not_priority">|</span> </h5></a>
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link cabecera" href="/usuarios"><h5><b>Usuario</b> |</h5></a>
+                            <a class="nav-link cabecera" href="/usuarios"><h5><b>Usuario</b> <span class="not_priority">|</span> </h5></a>
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link cabecera" href="/especialista"><h5><b>Especialista</b> |</h5></a>
+                            <a class="nav-link cabecera" href="/especialista"><h5><b>Especialista</b> <span class="not_priority">|</span> </h5></a>
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link cabecera" href="/seguridad"><h5><b>Seguridad</b> |</h5></a>
+                            <a class="nav-link cabecera" href="/seguridad"><h5><b>Seguridad</b> <span class="not_priority">|</span> </h5></a>
                         </li>
                         
                         <li class="nav-item">
@@ -86,7 +88,7 @@
             </div>
         </nav>
 
-        <main class="pb-5">
+        <main class="">
             @yield('content')
         </main>
     </div>
@@ -118,8 +120,8 @@
                                 </dl>
                         </div>
                         <div class="col-4 size5">
-                        <dl class="size6">
                             Especialistas
+                                <dl class="size6">
                                     <dd> <a href="#" class="pie"> Requisitos para realizar consultas en Health& </a> </dd>
                                     <dd> <a href="#" class="pie"> Ganancias con Health& </a> </dd>
                                 </dl>
@@ -144,10 +146,10 @@
                         <div class="col-9">
                             <div class="row">
                                 <a href="#" class="col-6">
-                                    <img width="100%" src="{{ asset('img/appstore.svg') }}">
+                                    <object class="img-fluid" data="{{ asset('img/appstore.svg') }}" type="image/svg+xml"></object>
                                 </a>
                                 <a href="#" class="col-6">
-                                    <img width="100%" src="{{ asset('img/playstore.svg') }}">
+                                    <object class="img-fluid" data="{{ asset('img/playstore.svg') }}" type="image/svg+xml"></object>
                                 </a>
                             </div>
                         </div>

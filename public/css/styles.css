@@ -19,6 +19,7 @@
 }
 .color3 {
     background-color: #8ABBC7;
+    color: #fff;
 }
 .color4 {
     background-color:  #fff;
@@ -80,6 +81,9 @@
 .bg-footer{
     background-color: #415B7A;
     color: #fff;
+}
+.bg-blanco{
+    background-color: #fff;
 }
 
 
