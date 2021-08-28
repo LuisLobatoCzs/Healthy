@@ -11,7 +11,7 @@
                 <div style="position: absolute; left: 0px; top: 50px;" class="not_priority color4 p-3 col-md-5 col-sm-6 col-12">
                             <h2> <b> ¡Ten a tu alcance los mejores especialistas del área de la salud! </b> </h2> 
                         </div>
-                        <div style="position: absolute; left: 0px; top: 80px;" class="aux color4 p-3 col-md-5 col-sm-6 col-12">
+                        <div style="position: absolute; left: 0px; top: 50px;" class="aux color5 p-3 col-md-5 col-sm-6 col-12">
                             <h5> <b> ¡Ten a tu alcance los mejores especialistas del área de la salud! </b> </h5> 
                         </div>
                         <!-- Botones -->
@@ -31,7 +31,7 @@
                 <div style="position: absolute; left: 0px; top: 50px;" class="not_priority color4 p-3 col-md-5 col-sm-6 col-12">
                     <h2> <b> ¡Ten a tu alcance los mejores especialistas del área de la salud! </b> </h2> 
                 </div>
-                <div style="position: absolute; left: 0px; top: 80px;" class="aux color4 p-3 col-md-5 col-sm-6 col-12">
+                <div style="position: absolute; left: 0px; top: 50px;" class="aux color5 p-3 col-md-5 col-sm-6 col-12">
                     <h5> <b> ¡Ten a tu alcance los mejores especialistas del área de la salud! </b> </h5> 
                 </div>
                 <!-- Botones -->
@@ -52,7 +52,7 @@
                 <div style="position: absolute; left: 0px; top: 50px;" class="not_priority color4 p-3 col-md-5 col-sm-6 col-12">
                     <h2> <b> ¡Ten a tu alcance los mejores especialistas del área de la salud! </b> </h2> 
                 </div>
-                <div style="position: absolute; left: 0px; top: 80px;" class="aux color4 p-3 col-md-5 col-sm-6 col-12">
+                <div style="position: absolute; left: 0px; top: 50px;" class="aux color5 p-3 col-md-5 col-sm-6 col-12">
                     <h5> <b> ¡Ten a tu alcance los mejores especialistas del área de la salud! </b> </h5> 
                 </div>
                 <!-- Botones -->
@@ -76,13 +76,17 @@
     <div class="container">
         <!-- Teléfono -->
         <br><br><br>
-        <div class="row justify-content-center" style="position: relative;">
+        <div class="row justify-content-center pc" style="position: relative;">
             <img class="col-12" src="{{ asset('img/pantallaCompleta.png') }}" >
-        </div>
+        </div> 
 
-            
-                
-
+        <div class="row justify-content-center tablet" style="position: relative;">
+            <img class="col-12" src="{{ asset('img/tablet.png') }}" >
+        </div>    
+        
+        <div class="row justify-content-center celular" style="position: relative;">
+            <img class="col-12" src="{{ asset('img/celular.png') }}" >
+        </div>   
 
         <br><br><br><br>
 
@@ -92,11 +96,11 @@
         </div>
 
         <!-- Login & Register -->
-        <div class="row p-5 justify-content-center">
+        <div class="row pt-5 pb-5 justify-content-center">
             
             
             <!-- Usuario -->
-            <div class="col-5 centrar cabecera">
+            <div class="col-md-5 col-12 centrar cabecera pb-5">
                 <h2> <b> Usuario </b> </h2>
                 <br>
                 <h6 class="pb-4">
@@ -109,10 +113,10 @@
 
                 <!-- Botones -->
                 <a href="/registro-usuario">
-                    <button class="btn color3 mt-4 edge size5 p-3"> &nbsp;&nbsp;&nbsp; Regístrate como usuario  &nbsp;&nbsp;&nbsp; </button>
+                    <button class="btn color3 mt-4 edge size6 p-3"> <span class="pc">&nbsp;&nbsp;&nbsp;</span> Regístrate como usuario <span class="pc">&nbsp;&nbsp;&nbsp;</span> </button>
                 </a>
                 <a href="#">
-                    <img class="mt-3" width="60%" src="{{ asset('img/rgoogle.jpg') }}">
+                    <img class="mt-3 col-md-8 col-sm-7 col-10" src="{{ asset('img/rgoogle.jpg') }}">
                 </a>
                 <br>    
                 <a href="#">
@@ -122,11 +126,11 @@
             </div>
             
             <!-- Linea divisora-->
-            <div class="vl"> </div> 
+            <div class="vl pc"> </div> 
             
             
             <!-- Especialista -->
-            <div class="col-5 centrar cabecera">
+            <div class="col-md-5 col-12 centrar cabecera pb-5">
                 <h2> <b> Especialista </b> </h2>
                 <br>
                 <h6>
@@ -139,12 +143,12 @@
 
                 <!-- Botones -->
                 <a href="/registro-especialista">
-                    <button class="btn color3 mt-4 edge size5 p-3"> &nbsp;&nbsp;&nbsp; Regístrate como especialista  &nbsp;&nbsp;&nbsp; </button>
+                    <button class="btn color3 mt-4 edge size6 p-3"> <span class="pc">&nbsp;&nbsp;&nbsp;</span> Regístrate como especialista <span class="pc">&nbsp;&nbsp;&nbsp;</span> </button>
                 </a>
                 <a href="#">
-                    <img class="mt-3" width="60%" src="{{ asset('img/rgoogle.jpg') }}">
+                    <img class="mt-3 col-md-8 col-sm-7 col-10" src="{{ asset('img/rgoogle.jpg') }}">
                 </a>
-                <br>    
+                <br>
                 <a href="#">
                     Ya tengo cuenta de especialista
                 </a>

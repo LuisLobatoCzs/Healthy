@@ -100,18 +100,18 @@
         <div class="col-12 p-4 pl-5">
             <div class="row">
                 <!-- Enlaces -->
-                <div class="col-8">
+                <div class="col-md-8 col-sm-12 col-12">
                     <div class="row">
-                        <div class="col-4 size5">
+                        <div class="col-md-4 col-sm-4 col-6 size5">
                             Compañía
                             <dl class="size6">
                                 <dd> <a href="#" class="pie"> Quienes somos </a> </dd>
                                 <dd> <a href="#" class="pie"> Lo que ofrecemos </a> </dd>
                                 <dd> <a href="#" class="pie"> Cómo funciona Health& </a> </dd>
-                                <dd> <a href="#" class="pie"> Privacidad/Términos y condiciones</a> </dd>
+                                <dd> <a href="#" class="pie"> Privacidad / Términos y condiciones</a> </dd>
                             </dl>
                         </div>
-                        <div class="col-4 size5">
+                        <div class="col-md-4 col-sm-4 col-6 size5">
                             Usuarios
                                 <dl class="size6">
                                     <dd> <a href="#" class="pie"> Especialistas </a> </dd>
@@ -119,7 +119,7 @@
                                     <dd> <a href="#" class="pie"> Centro de soporte </a> </dd>
                                 </dl>
                         </div>
-                        <div class="col-4 size5">
+                        <div class="col-md-4 col-sm-4 col-6 size5">
                             Especialistas
                                 <dl class="size6">
                                     <dd> <a href="#" class="pie"> Requisitos para realizar consultas en Health& </a> </dd>
@@ -129,10 +129,10 @@
                     </div>
                 </div>
                 <!-- Enlaces externos -->
-                <div class="col-4 pt-3">
+                <div class="col-md-4 col-12 pt-3">
                    <div class="row pt-5 mt-5 centerXY">
                         <!-- Redes sociales -->
-                        <div class="col-3">
+                        <div class="col-md-3 col-sm-3 col-6">
                             <div class="row">
                                 <a href="#" class="col-6">
                                     <svg class="pie" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg>
@@ -143,12 +143,12 @@
                             </div>
                         </div>
                         <!-- App -->
-                        <div class="col-9">
+                        <div class="col-md-9 col-sm-9 col-6">
                             <div class="row">
-                                <a href="#" class="col-6">
+                                <a href="#" class="col-md-6 col-sm-6 col-10">
                                     <object class="img-fluid" data="{{ asset('img/appstore.svg') }}" type="image/svg+xml"></object>
                                 </a>
-                                <a href="#" class="col-6">
+                                <a href="#" class="col-md-6 col-sm-6 col-10">
                                     <object class="img-fluid" data="{{ asset('img/playstore.svg') }}" type="image/svg+xml"></object>
                                 </a>
                             </div>

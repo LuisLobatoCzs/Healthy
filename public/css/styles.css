@@ -25,6 +25,10 @@
     background-color:  #fff;
     color: #415B7A;
 }
+.color5 {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #415B7A;
+}
 
 .colorTexto1{
     color: #415B7A;
@@ -206,5 +210,38 @@
 @media screen and (min-width: 801px) {
     .aux {
         display:none;
+    }
+}
+@media screen and (max-width: 414px) and (min-width: 0px) {
+    .celular {
+        display:contents;
+    }
+    .tablet {
+        display: none;
+    }
+    .pc {
+        display: none;
+    }
+}
+@media screen and (min-width: 415px) and (max-width: 999px){
+    .tablet {
+        display: contents;
+    }
+    .celular {
+        display: none;
+    }
+    .pc {
+        display: none;
+    }
+}
+@media screen and (min-width: 1000px){
+    .pc {
+        display: inline;
+    }
+    .celular {
+        display: none;
+    }
+    .tablet {
+        display: none;
     }
 }
