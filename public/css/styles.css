@@ -29,6 +29,12 @@
     background-color: rgba(255, 255, 255, 0.3);
     color: #415B7A;
 }
+.color6 {
+    background: linear-gradient(to right, rgba(138, 187, 199, 0.3), rgba(255, 255, 255, 0.3));
+}
+.color7 {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(138, 187, 199, 0.2));
+}
 
 .colorTexto1{
     color: #415B7A;
@@ -200,6 +206,16 @@
 }
 .sombra2{
     box-shadow: 2px 2px 2px 5px rgba(166, 184, 189, 0.3);
+}
+
+.sobreponer{
+    z-index: 10;
+}
+.atras{
+    z-index: -1;
+}
+.al-fondo{
+    z-index: -1000;
 }
 
 @media screen and (max-width: 800px) and (min-width: 0px) {

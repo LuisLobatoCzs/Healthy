@@ -9,11 +9,11 @@
             <div class="col-12" style="position: absolute; left: -15px; top: 200px;">
                 <img width="100%" src="{{ asset('img/onda.png') }}">
             </div>
-            <div class="col-5" style="position: relative;">
+            <div class="col-md-5 col-10" style="position: relative;">
                 <img width="100%" src="{{ asset('img/doctores_celular.png') }}">
             </div>
             
-            <div class="col-6 pt-3">
+            <div class="col-md-6 col-11 pt-3">
                 <div class="row justify-content-center">
                     <b class="resaltado size3"> ¿Quiénes somos? </b>
                 </div>
@@ -36,7 +36,7 @@
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="row justify-content-center resaltado cuadro3 size3" style="position: relative; left: -5px;">
-                    <div class="col-10 centrar">
+                    <div class="col-md-10 col-12 centrar">
                         <b>
                             Creamos oportunidades de trabajo para
                             <br>
@@ -49,25 +49,40 @@
 
         <!-- Logo -->
         <div class="row justify-content-center mt-3">
-            <div class="col-8 centrar size2 mb-5">
+            <div class="col-8 centrar size2 mb-5 pc">
                 <b>
                     Con
                 </b>
                 <img width="20%" src="{{ asset('img/logo.png') }}" alt="logo" style="position: relative; top: 5px">
             </div>
+            <div class="col-8 centrar size3 mb-5 tablet pb-5">
+                <b>
+                    Con
+                </b>
+                <img width="30%" src="{{ asset('img/logo.png') }}" alt="logo" style="position: relative; top: 5px">
+            </div>
+            <div class="col-8 centrar size4 mb-5 celular">
+                <div class="row justify-content-center">
+                    <b class="col-1">
+                        Con
+                    </b>
+                    <img class="col-8" src="{{ asset('img/logo.png') }}" alt="logo" style="position: relative; top: 5px">
+                </div>
+                <br><br>
+            </div>
         </div>
 
         <!-- Cuadros -->
         <div class="row justify-content-center">
-            <div class="col-3 m-1 cuadrofilas">
+            <div class="col-md-3 col-10 m-1 cuadrofilas">
                 <img src="{{ asset('img/nofilas.png') }}" class="top img-fluid"> 
                 <img src="{{ asset('img/nofilas_2.png') }}" class="back img-fluid"> 
             </div>
-            <div class="col-3 m-1 cuadroservicio24">
+            <div class="col-md-3 col-10 m-1 cuadroservicio24">
                 <img src="{{ asset('img/servicio24.png') }}" class="top img-fluid"> 
                 <img src="{{ asset('img/servicio24_2.png') }}" class="back img-fluid">
             </div>
-            <div class="col-3 m-1 cuadroseguridad">
+            <div class="col-md-3 col-10 m-1 cuadroseguridad">
                 <img src="{{ asset('img/seguridad.png') }}" class="top img-fluid"> 
                 <img src="{{ asset('img/seguridad_2.png') }}" class="back img-fluid">
             </div>
@@ -75,7 +90,7 @@
 
         <!-- Texto -->
         <div class="row justify-content-center">
-            <div class="col-9 centrar p-5 size5">
+            <div class="col-md-9 col-11 centrar pt-5 pb-5 size5">
                 <b>
                     En Healthy conocemos y entendemos las necesidades de los profesionistas en la salud ante la falta de oportunidades laborales, por eso ofrecemos a nuestros colaboradores facilidades para brindar servicios directamente en el domicilio del paciente con pagos justos que beneficien al paciente y al especialista.
                 </b>

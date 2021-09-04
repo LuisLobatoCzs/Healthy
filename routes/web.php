@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,6 +43,10 @@ Route::get('/registro-usuario', function () {
 });
 Route::get('/registro-especialista', function () {
     return view('respecialista');
+});
+
+Route::get('/perfil-usuario', function () {
+    return view('perfilUsuario');
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

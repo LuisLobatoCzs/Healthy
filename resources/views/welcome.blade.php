@@ -9,21 +9,21 @@
             <div class="carousel-item active" style="position: relative;">
                 <!-- Cuadro de texto flotante-->
                 <div style="position: absolute; left: 0px; top: 50px;" class="not_priority color4 p-3 col-md-5 col-sm-6 col-12">
-                            <h2> <b> ¡Ten a tu alcance los mejores especialistas del área de la salud! </b> </h2> 
-                        </div>
-                        <div style="position: absolute; left: 0px; top: 50px;" class="aux color5 p-3 col-md-5 col-sm-6 col-12">
-                            <h5> <b> ¡Ten a tu alcance los mejores especialistas del área de la salud! </b> </h5> 
-                        </div>
-                        <!-- Botones -->
-                        <div style="position: absolute; right: 0px; top: 50px;" class="not_priority p-3 col-md-2 col-sm-4">
-                            <a href="#">
-                                <object class="img-fluid" data="{{ asset('img/appstore.svg') }}" type="image/svg+xml"></object>
-                            </a>
-                            <br><br>
-                            <a href="#">
-                                <object class="img-fluid" data="{{ asset('img/playstore.svg') }}" type="image/svg+xml"></object>
-                            </a>
-                        </div>
+                    <h2> <b> ¡Ten a tu alcance los mejores especialistas del área de la salud! </b> </h2> 
+                </div>
+                <div style="position: absolute; left: 0px; top: 50px;" class="aux color5 p-3 col-md-5 col-sm-6 col-12">
+                    <h5> <b> ¡Ten a tu alcance los mejores especialistas del área de la salud! </b> </h5> 
+                </div>
+                <!-- Botones -->
+                <div style="position: absolute; right: 0px; top: 50px;" class="not_priority p-3 col-md-2 col-sm-4">
+                    <a href="#">
+                        <object class="img-fluid" data="{{ asset('img/appstore.svg') }}" type="image/svg+xml"></object>
+                    </a>
+                    <br><br>
+                    <a href="#">
+                        <object class="img-fluid" data="{{ asset('img/playstore.svg') }}" type="image/svg+xml"></object>
+                    </a>
+                </div>
                 <img class="d-block w-100" src="{{ asset('img/s1.jpg') }}">
             </div>
             <div class="carousel-item" style="position: relative;">
