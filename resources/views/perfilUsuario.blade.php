@@ -40,8 +40,51 @@
                         <object class="img-fluid" type="image/svg+xml" data="/img/perfil/tarjeta.svg" type=""></object>                    
                     </div>
                 </div>
-
             </div>
+            <div class="row p-2">
+                <div class="color7 col-9">
+                    <div class="col-md-3">
+                        <object class="img-fluid" type="image/svg+xml" data="/img/perfil/direccion.svg" type=""></object>                    
+                    </div>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="color7 col-9">
+                    <div class="col-md-3">
+                        <object class="img-fluid" type="image/svg+xml" data="/img/perfil/healthy coins.svg" type=""></object>                    
+                    </div>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="color7 col-9">
+                    <div class="col-md-3">
+                        <object class="img-fluid" type="image/svg+xml" data="/img/perfil/favoritos.svg" type=""></object>                    
+                    </div>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="color7 col-9">
+                    <div class="col-md-3">
+                        <object class="img-fluid" type="image/svg+xml" data="/img/perfil/registro de consultas.svg" type=""></object>                    
+                    </div>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="color7 col-9">
+                    <div class="col-md-3">
+                        <object class="img-fluid" type="image/svg+xml" data="/img/perfil/centro de ayuda.svg" type=""></object>                    
+                    </div>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="color7 col-9">
+                    <div class="col-md-3">
+                        <object class="img-fluid" type="image/svg+xml" data="/img/perfil/terminos y condiciones.svg" type=""></object>                    
+                    </div>
+                </div>
+            </div>
+
+            <br><br><br>
         </div>
     </div>
 </div>
