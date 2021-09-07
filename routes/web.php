@@ -49,6 +49,10 @@ Route::get('/perfil-usuario', function () {
     return view('perfilUsuario');
 });
 
+Route::get('/perfil-especialista', function () {
+    return view('perfilEspecialista');
+});
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');

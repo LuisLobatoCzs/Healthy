@@ -84,7 +84,13 @@
                 </div>
             </div>
 
+            <div class="row p-2 justify-content-center">
+                <a href="/"><h3 class="colorTexto4">Cerrar Sesión</h3></a>
+            </div>
+
             <br><br><br>
+
+            
         </div>
     </div>
 </div>

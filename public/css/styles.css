@@ -45,6 +45,12 @@
 .colorTexto3{
     color: #8fc1c7;
 }
+.colorTexto4{
+    color: #8fc1c7;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
 
 .centerXY {
     border: none;
