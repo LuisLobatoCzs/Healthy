@@ -105,25 +105,25 @@
                         <div class="col-md-4 col-sm-4 col-6 size5">
                             Compañía
                             <dl class="size6">
-                                <dd> <a href="#" class="pie"> Quienes somos </a> </dd>
-                                <dd> <a href="#" class="pie"> Lo que ofrecemos </a> </dd>
-                                <dd> <a href="#" class="pie"> Cómo funciona Health& </a> </dd>
-                                <dd> <a href="#" class="pie"> Privacidad / Términos y condiciones</a> </dd>
+                                <dd> <a href="/nosotros" class="pie"> Quienes somos </a> </dd>
+                                <dd> <a href="/nosotros" class="pie"> Lo que ofrecemos </a> </dd>
+                                <dd> <a href="/nosotros" class="pie"> Cómo funciona Health& </a> </dd>
+                                <dd> <a href="/" class="pie"> Privacidad / Términos y condiciones</a> </dd>
                             </dl>
                         </div>
                         <div class="col-md-4 col-sm-4 col-6 size5">
                             Usuarios
                                 <dl class="size6">
-                                    <dd> <a href="#" class="pie"> Especialistas </a> </dd>
-                                    <dd> <a href="#" class="pie"> Preguntas frecuentes </a> </dd>
+                                    <dd> <a href="/ayuda" class="pie"> Especialistas </a> </dd>
+                                    <dd> <a href="/ayuda" class="pie"> Preguntas frecuentes </a> </dd>
                                     <dd> <a href="#" class="pie"> Centro de soporte </a> </dd>
                                 </dl>
                         </div>
                         <div class="col-md-4 col-sm-4 col-6 size5">
                             Especialistas
                                 <dl class="size6">
-                                    <dd> <a href="#" class="pie"> Requisitos para realizar consultas en Health& </a> </dd>
-                                    <dd> <a href="#" class="pie"> Ganancias con Health& </a> </dd>
+                                    <dd> <a href="/ayuda#especialistas" class="pie"> Requisitos para realizar consultas en Health& </a> </dd>
+                                    <dd> <a href="/especialista#beneficios" class="pie"> Ganancias con Health& </a> </dd>
                                 </dl>
                         </div>
                     </div>
