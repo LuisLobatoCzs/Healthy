@@ -74,15 +74,15 @@
 
         <!-- Cuadros -->
         <div class="row justify-content-center">
-            <div class="col-md-3 col-10 m-1 cuadrofilas">
+            <div class="col-md-3 col-sm-5 col-10 m-1 cuadrofilas">
                 <img src="{{ asset('img/nofilas.png') }}" class="top img-fluid"> 
                 <img src="{{ asset('img/nofilas_2.png') }}" class="back img-fluid"> 
             </div>
-            <div class="col-md-3 col-10 m-1 cuadroservicio24">
+            <div class="col-md-3 col-sm-5 col-10 m-1 cuadroservicio24">
                 <img src="{{ asset('img/servicio24.png') }}" class="top img-fluid"> 
                 <img src="{{ asset('img/servicio24_2.png') }}" class="back img-fluid">
             </div>
-            <div class="col-md-3 col-10 m-1 cuadroseguridad">
+            <div class="col-md-3 col-sm-5 col-10 m-1 cuadroseguridad">
                 <img src="{{ asset('img/seguridad.png') }}" class="top img-fluid"> 
                 <img src="{{ asset('img/seguridad_2.png') }}" class="back img-fluid">
             </div>

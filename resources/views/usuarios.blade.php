@@ -5,7 +5,7 @@
 
     <div class="col-12">
         <!-- Encabezado -->
-        <div class="row justify-content-center p-5 sombra size2 resaltado bg-blanco">
+        <div class="row justify-content-center pt-5 pb-5 pl-2 pr-2 sombra size2 resaltado bg-blanco">
             <b><u>
                 Los mejores especialistas en la salud a un clic de distancia
             </u></b>
@@ -13,7 +13,7 @@
 
         <!-- Doctor -->
         <div class="row justify-content-center">
-            <div class="col-3">
+            <div class="col-md-3 col-sm-6 col-8">
                 <img width="100%" src="{{ asset('img/doctor.png') }}" style="position: relative; top: -20px;">
             </div>
             <div class="col-9">
@@ -36,14 +36,14 @@
         <!-- Celular -->
         <div class="row justify-content-center">
             <div class="col-4"></div>
-            <div class="col-8">
+            <div class="col-md-8 col-sm-11 col-12">
                 <img width="100%" src="{{ asset('img/usuariocelular.png') }}">
             </div>
         </div>  
         
         <!-- Cuadro -->
         <div class="row justify-content-center p-5 cuadroblanco sombra2">
-            <div class="col-10">
+            <div class="col-md-10">
                 <div class="row justify-content-center size3 resaltado pb-3">
                     <b class="centrar">
                         Pide al especialista de la salud que 

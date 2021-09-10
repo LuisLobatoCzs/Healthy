@@ -53,6 +53,14 @@ Route::get('/perfil-especialista', function () {
     return view('perfilEspecialista');
 });
 
+
+
+
+Route::post('/registrar-usuario', "auth\RegisterController@registroUsuario");
+
+
+
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');

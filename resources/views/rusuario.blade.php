@@ -28,8 +28,8 @@
 
     <div class="row justify-content-center p-5">
         <div class="col-8">
-            <form action="">
-                
+            <form method="POST" action="/registrar-usuario">
+                @csrf
                 <div class="row size5">
                     <div class="col-6">
                         <div class="col-12 cabecera">
@@ -37,7 +37,7 @@
                                 Nombre (obligatorio)
                             </b>
                         </div>
-                        <input type="text" class="form-control col-10">
+                        <input name="name" id="name" type="text" class="form-control col-10">
                     </div>
                     <div class="col-6">
                         <div class="col-12 cabecera">
@@ -45,7 +45,7 @@
                                 Apellidos (obligatorio)
                             </b>
                         </div>
-                        <input type="text" class="form-control col-10">
+                        <input name="last-name" id="last-name" type="text" class="form-control col-10">
                     </div>
                 </div>
                 <br><br>
@@ -56,10 +56,10 @@
                             Ingresa tu número de teléfono                        
                         </b>
                     </div>
-                    <select name="" id="" class="col-2 form-control">
+                    <select name="phone-code" id="phone-code" class="col-2 form-control">
                         <option value="">+52</option>
                     </select>
-                    <input type="text" class="form-control col-6" placeholder="Número de teléfono">
+                    <input name="phone" id="phone" type="text" class="form-control col-6" placeholder="Número de teléfono">
                     <object width="20vh"  style="position:relative; left: -25px;" data="{{ asset('img/formularios/telefono.svg') }}" type="image/svg+xml">
                     </object>
                 </div>
@@ -71,7 +71,7 @@
                             Ingresa tu correo electrónico (obligatorio)                        
                         </b>
                     </div>
-                    <input type="text" class="form-control col-8" placeholder="Correo electrónico">
+                    <input name="email" id="email" type="text" class="form-control col-8" placeholder="Correo electrónico">
                     <object width="30vh"  style="position:relative; left: -35px;" data="{{ asset('img/formularios/mail.svg') }}" type="image/svg+xml">
                     </object>
                 </div>
@@ -83,14 +83,14 @@
                             Ingresa tu contraseña (obligatorio)                        
                         </b>
                     </div>
-                    <input type="text" class="form-control col-8" placeholder="Contraseña">
-                    <object width="20vh"  style="position:relative; left: -25px;" data="{{ asset('img/formularios/candado.svg') }}" type="image/svg+xml">
+                    <input name="password" id="password" type="text" class="form-control col-8" placeholder="Contraseña">
+                    <object width="20vh" style="position:relative; left: -25px;" data="{{ asset('img/formularios/candado.svg') }}" type="image/svg+xml">
                     </object>
                 </div>
                 <br><br>
 
                 <div class="row">
-                    <input type="checkbox" class="col-1">     
+                    <input name="conditions" id="conditions" type="checkbox" class="col-1">     
                     Acepto términos y condiciones
                 </div>
                 <br><br>
@@ -99,7 +99,7 @@
                     <div class="col-2"></div>
                     <div class="col-6">
                         <div class="row justify-content-center">
-                            <button class="btn color3 edge size5"> &nbsp;&nbsp;&nbsp; Regístrate como usuario &nbsp;&nbsp;&nbsp; </button>
+                            <button type="submit" class="btn color3 edge size5"> &nbsp;&nbsp;&nbsp; Regístrate como usuario &nbsp;&nbsp;&nbsp; </button>
                             <div class="col-9 size7 justificar">
                                 Al hacer clic en registrarme aceptas los términos de uso de Healthy y reconoces que leíste la política de privacidad. Además aceptas recibir llamadas o mensajes por SMS de Healthy.
                             </div>
