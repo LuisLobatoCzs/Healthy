@@ -6,7 +6,7 @@
         <div class="col-md-8 col-sm-8 col-12">
             <div class="row pt-5" style="position: relative;">
                 <!-- Foto -->
-                <div class="col-md-3 col-sm-6 col-5 centrar" style="position:relative">
+                <div class="col-md-3 col-sm-5 col-5 centrar" style="position:relative">
                     <img class="img-fluid" src="/img/perfil/perfil.png" alt="">
                 </div>
                 <!-- Edad -->

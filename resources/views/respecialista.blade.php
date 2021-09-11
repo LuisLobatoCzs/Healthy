@@ -27,25 +27,29 @@
     </div>
 
     <div class="row justify-content-center p-5">
-        <div class="col-8">
+        <div class="col-md-8 col-12">
             <form action="">
                 
                 <div class="row size5">
-                    <div class="col-6">
-                        <div class="col-12 cabecera">
-                            <b>
-                                Nombre (obligatorio)
-                            </b>
+                    <div class="col-md-6 col-sm-6 col-12 pb-4">
+                        <div class="row">
+                            <div class="col-12 cabecera">
+                                <b>
+                                    Nombre (obligatorio)
+                                </b>
+                            </div>
+                            <input type="text" class="form-control col-md-10 col-sm-10 col-11">
                         </div>
-                        <input type="text" class="form-control col-10">
                     </div>
-                    <div class="col-6">
-                        <div class="col-12 cabecera">
-                            <b>
-                                Apellidos (obligatorio)
-                            </b>
+                    <div class="col-md-6 col-sm-6 col-12">
+                        <div class="row">
+                            <div class="col-12 cabecera">
+                                <b>
+                                    Apellidos (obligatorio)
+                                </b>
+                            </div>
+                            <input type="text" class="form-control col-md-10 col-sm-10 col-11">
                         </div>
-                        <input type="text" class="form-control col-10">
                     </div>
                 </div>
                 <br><br>
@@ -59,7 +63,7 @@
                     <select name="" id="" class="col-2 form-control">
                         <option value="">+52</option>
                     </select>
-                    <input type="text" class="form-control col-6" placeholder="Número de teléfono">
+                    <input type="text" class="form-control col-md-6 col-9" placeholder="Número de teléfono">
                     <object width="20vh"  style="position:relative; left: -25px;" data="{{ asset('img/formularios/telefono.svg') }}" type="image/svg+xml">
                     </object>
                 </div>
@@ -71,7 +75,7 @@
                             Ingresa tu correo electrónico (obligatorio)                        
                         </b>
                     </div>
-                    <input type="text" class="form-control col-8" placeholder="Correo electrónico">
+                    <input type="text" class="form-control col-md-8 col-11" placeholder="Correo electrónico">
                     <object width="20vh"  style="position:relative; left: -25px;" data="{{ asset('img/formularios/mail.svg') }}" type="image/svg+xml">
                     </object>
                 </div>
@@ -83,7 +87,7 @@
                             Ingresa tu contraseña (obligatorio)                        
                         </b>
                     </div>
-                    <input type="text" class="form-control col-8" placeholder="Contraseña">
+                    <input type="text" class="form-control col-md-8 col-11" placeholder="Contraseña">
                     <object width="20vh"  style="position:relative; left: -25px;" data="{{ asset('img/formularios/candado.svg') }}" type="image/svg+xml">
                     </object>
                 </div>
@@ -95,7 +99,7 @@
                             Ingresa tu cédula profesional (obligatorio)                        
                         </b>
                     </div>
-                    <input type="text" class="form-control col-8" placeholder="Cédula profesional">
+                    <input type="text" class="form-control col-md-8 col-11" placeholder="Cédula profesional">
                     <object width="23vh"  style="position:relative; left: -25px;" data="{{ asset('img/formularios/cedula.svg') }}" type="image/svg+xml">
                     </object>
                 </div>
@@ -109,9 +113,9 @@
 
                 <div class="row">
                     <div class="col-2"></div>
-                    <div class="col-6">
+                    <div class="col-md-6 col-sm-10 col-12">
                         <div class="row justify-content-center">
-                            <button class="btn color3 edge size5"> &nbsp;&nbsp;&nbsp; Regístrate como usuario &nbsp;&nbsp;&nbsp; </button>
+                            <button class="btn color3 edge size5"> &nbsp;&nbsp; Regístrate como usuario &nbsp;&nbsp; </button>
                             <div class="col-9 size7 justificar">
                                 Al hacer clic en registrarme aceptas los términos de uso de Healthy y reconoces que leíste la política de privacidad. Además aceptas recibir llamadas o mensajes por SMS de Healthy.
                             </div>

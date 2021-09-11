@@ -9,18 +9,14 @@
                 <div class="col-md-3 col-sm-6 col-5 centrar" style="position:relative">
                     <img class="img-fluid" src="/img/perfil/perfil.png" alt="">
                 </div>
-                <!-- Edad -->
-                <div class="col-md-7 col-sm-10 col-7 color6 atras" style="position: absolute; left:7em; top:4em; font-size: calc(1em + 0.5vw);">
-                    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <b> Edad: </b>
-                </div>
-                <!-- Peso -->
-                <div class="col-md-7 col-sm-10 col-7 color6 atras" style="position: absolute; left:7em; top:6em; font-size: calc(1em + 0.5vw);">
-                    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <b> Peso: </b>
-                </div>
-                <!-- Estatura -->
-                <div class="col-md-7 col-sm-10 col-7 color6 atras" style="position: absolute; left:7em; top:8em; font-size: calc(1em + 0.5vw);">
-                    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp; <b> Estatura: </b>
-                </div>
+                <!--Área de la salud -->
+                
+                <!-- No. de cédula -->
+                
+                <!-- Método de realizar consultas -->
+
+                <!-- Calificación -->
+                
             </div>
 
             <div class="row pb-5 centerY">

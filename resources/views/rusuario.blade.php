@@ -26,26 +26,30 @@
         </div>
     </div>
 
-    <div class="row justify-content-center p-5">
-        <div class="col-8">
+    <div class="row justify-content-center pt-5 pb-5 pl-3 pr-3">
+        <div class="col-md-8 col-12">
             <form method="POST" action="/registrar-usuario">
                 @csrf
                 <div class="row size5">
-                    <div class="col-6">
-                        <div class="col-12 cabecera">
-                            <b>
-                                Nombre (obligatorio)
-                            </b>
+                    <div class="col-md-6 col-sm-6 col-12 pb-4">
+                        <div class="row">
+                            <div class="col-12 cabecera">
+                                <b>
+                                    Nombre (obligatorio)
+                                </b>
+                            </div>
+                            <input name="name" id="name" type="text" class="form-control col-md-10 col-sm-10 col-11">
                         </div>
-                        <input name="name" id="name" type="text" class="form-control col-10">
                     </div>
-                    <div class="col-6">
-                        <div class="col-12 cabecera">
-                            <b>
-                                Apellidos (obligatorio)
-                            </b>
+                    <div class="col-md-6 col-sm-6 col-12">
+                        <div class="row">
+                            <div class="col-12 cabecera">
+                                <b>
+                                    Apellidos (obligatorio)
+                                </b>
+                            </div>
+                            <input name="last-name" id="last-name" type="text" class="form-control col-md-10 col-sm-10 col-11">
                         </div>
-                        <input name="last-name" id="last-name" type="text" class="form-control col-10">
                     </div>
                 </div>
                 <br><br>
@@ -56,11 +60,11 @@
                             Ingresa tu número de teléfono                        
                         </b>
                     </div>
-                    <select name="phone-code" id="phone-code" class="col-2 form-control">
+                    <select name="phone-code" id="phone-code" class="col-md-2 col-3 form-control">
                         <option value="">+52</option>
                     </select>
-                    <input name="phone" id="phone" type="text" class="form-control col-6" placeholder="Número de teléfono">
-                    <object width="20vh"  style="position:relative; left: -25px;" data="{{ asset('img/formularios/telefono.svg') }}" type="image/svg+xml">
+                    <input name="phone" id="phone" type="text" class="form-control col-md-6 col-8" placeholder="Número de teléfono">
+                    <object width="15vh"  style="position:relative; left: -40px;" data="{{ asset('img/formularios/telefono.svg') }}" type="image/svg+xml">
                     </object>
                 </div>
                 <br><br>
@@ -71,8 +75,8 @@
                             Ingresa tu correo electrónico (obligatorio)                        
                         </b>
                     </div>
-                    <input name="email" id="email" type="text" class="form-control col-8" placeholder="Correo electrónico">
-                    <object width="30vh"  style="position:relative; left: -35px;" data="{{ asset('img/formularios/mail.svg') }}" type="image/svg+xml">
+                    <input name="email" id="email" type="text" class="form-control col-md-8 col-11" placeholder="Correo electrónico">
+                    <object width="25vh"  style="position:relative; left: -50px;" data="{{ asset('img/formularios/mail.svg') }}" type="image/svg+xml">
                     </object>
                 </div>
                 <br><br>
@@ -83,8 +87,8 @@
                             Ingresa tu contraseña (obligatorio)                        
                         </b>
                     </div>
-                    <input name="password" id="password" type="text" class="form-control col-8" placeholder="Contraseña">
-                    <object width="20vh" style="position:relative; left: -25px;" data="{{ asset('img/formularios/candado.svg') }}" type="image/svg+xml">
+                    <input name="password" id="password" type="text" class="form-control col-md-8 col-11" placeholder="Contraseña">
+                    <object width="15vh" style="position:relative; left: -40px;" data="{{ asset('img/formularios/candado.svg') }}" type="image/svg+xml">
                     </object>
                 </div>
                 <br><br>
@@ -97,9 +101,9 @@
 
                 <div class="row">
                     <div class="col-2"></div>
-                    <div class="col-6">
+                    <div class="col-md-6 col-sm-10 col-12">
                         <div class="row justify-content-center">
-                            <button type="submit" class="btn color3 edge size5"> &nbsp;&nbsp;&nbsp; Regístrate como usuario &nbsp;&nbsp;&nbsp; </button>
+                            <button type="submit" class="btn color3 edge size5"> &nbsp;&nbsp; Regístrate como usuario &nbsp;&nbsp; </button>
                             <div class="col-9 size7 justificar">
                                 Al hacer clic en registrarme aceptas los términos de uso de Healthy y reconoces que leíste la política de privacidad. Además aceptas recibir llamadas o mensajes por SMS de Healthy.
                             </div>

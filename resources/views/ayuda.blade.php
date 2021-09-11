@@ -10,8 +10,8 @@
         </div>
 
         <!-- Usuarios Cuadro Azul -->
-        <div class="row cuadro1 pl-5 pr-5 pt-2 pb-2">
-            <div class="col-6">
+        <div class="row cuadro1 pl-5 pr-5 pt-2 pb-2" id="usuarios">
+            <div class="col-md-6 col-sm-6 col-5">
                 <b class="size4 cabecera"> Usuarios: </b>
                 <br>
                 <dl class="size5">
@@ -32,10 +32,10 @@
                 </dl>
 
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-sm-6 col-7">
                 <div class="row justify-content-center">
                     <!-- Inicio PU1 --> 
-                    <div class="col-10 cuadro2 m-2" ng-show="pu1">
+                    <div class="col-md-10 col-12 cuadro2 m-2" ng-show="pu1">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u>¿Cómo me registro para ser nuevo usuario? </u></b>
                         </div>
@@ -56,7 +56,7 @@
                     </div>
                     <!-- Fin PU1 --> 
                     <!-- Inicio PU2 --> 
-                    <div class="col-10 cuadro2 m-2" ng-show="pu2">
+                    <div class="col-md-10 col-12  cuadro2 m-2" ng-show="pu2">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u> ¿Cómo puedo cambiar la información en mi perfil?  </u></b>
                         </div>
@@ -71,7 +71,7 @@
                     </div>
                     <!-- Fin PU2 -->
                     <!-- Inicio PU3 --> 
-                    <div class="col-10 cuadro2 m-2" ng-show="pu3">
+                    <div class="col-md-10 col-12 cuadro2 m-2" ng-show="pu3">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u> ¿Cómo agrego un contacto de emergencia?
                              </u></b>
@@ -89,7 +89,7 @@
                     </div>
                     <!-- Fin PU3 -->
                     <!-- Inicio PU4 --> 
-                    <div class="col-10 cuadro2 m-2" ng-show="pu4">
+                    <div class="col-md-10 col-12 cuadro2 m-2" ng-show="pu4">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u>¿Se realiza algún cargo de Pre-autorización? </u></b>
                         </div>
@@ -107,7 +107,7 @@
                     </div>
                     <!-- Fin PU4 -->
                     <!-- Inicio PU5 --> 
-                    <div class="col-10 cuadro2 m-2" ng-show="pu5">
+                    <div class="col-md-10 col-12 cuadro2 m-2" ng-show="pu5">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u> ¿Qué métodos de pago son aceptados en Healthy?</u></b>
                         </div>
@@ -121,7 +121,7 @@
                     </div>
                     <!-- Fin PU5 -->
                     <!-- Inicio PU6 --> 
-                    <div class="col-10 cuadro2 m-2" ng-show="pu6">
+                    <div class="col-md-10 col-12 cuadro2 m-2" ng-show="pu6">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u> ¿Cómo se realiza el cobro del servicio? </u></b>
                         </div>
@@ -137,7 +137,7 @@
                     </div>
                     <!-- Fin PU6 -->
                     <!-- Inicio PU7 --> 
-                    <div class="col-10 cuadro2 m-2" ng-show="pu7">
+                    <div class="col-md-10 col-12 cuadro2 m-2" ng-show="pu7">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u> ¿Puedo programar una cita con algún especialista?</u></b>
                         </div>
@@ -152,7 +152,7 @@
                     </div>
                     <!-- Fin PU7 -->
                     <!-- Inicio PU8 --> 
-                    <div class="col-10 cuadro2 m-2" ng-show="pu8">
+                    <div class="col-md-10 col-12 cuadro2 m-2" ng-show="pu8">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u> ¿Puedo dar propinas? </u></b>
                         </div>
@@ -169,7 +169,7 @@
                     </div>
                     <!-- Fin PU8 --> 
                     <!-- Inicio PU9 --> 
-                    <div class="col-10 cuadro2 m-2" ng-show="pu9">
+                    <div class="col-md-10 col-12 cuadro2 m-2" ng-show="pu9">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u> ¿Cómo solicito un servicio de algún especialista? </u></b>
                         </div>
@@ -183,7 +183,7 @@
                     </div>
                     <!-- Fin PU9 --> 
                     <!-- Inicio PU10 --> 
-                    <div class="col-10 cuadro2 m-2" ng-show="pu10">
+                    <div class="col-md-10 col-12 cuadro2 m-2" ng-show="pu10">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u> ¿Cómo puedo identificar a mi especialista?</u></b>
                         </div>
@@ -201,7 +201,7 @@
                     </div>
                     <!-- Fin PU10--> 
                     <!-- Inicio P11 --> 
-                    <div class="col-10 cuadro2 m-2" ng-show="pu11">
+                    <div class="col-md-10 col-12 cuadro2 m-2" ng-show="pu11">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u>  ¿Qué debo hacer si se realizó un cobro sin recibir el servicio? </u></b>
                         </div>
@@ -218,7 +218,7 @@
                     </div>
                     <!-- Fin PU11 --> 
                     <!-- Inicio PU12 --> 
-                    <div class="col-10 cuadro2 m-2" ng-show="pu12">
+                    <div class="col-md-10 col-12 cuadro2 m-2" ng-show="pu12">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u> ¿Cuenta con tarifa dinámica? </u></b>
                         </div>
@@ -230,7 +230,7 @@
                     </div>
                     <!-- Fin PU12 --> 
                     <!-- Inicio PU13 --> 
-                    <div class="col-10 cuadro2 m-2" ng-show="pu13">
+                    <div class="col-md-10 col-12 cuadro2 m-2" ng-show="pu13">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u> ¿Puedo pedir Healthy para algún conocido o familiar?</u></b>
                         </div>
@@ -242,7 +242,7 @@
                     </div>
                     <!-- Fin PU13 --> 
                     <!-- Inicio PU14 --> 
-                    <div class="col-10 cuadro2 m-2" ng-show="pu14">
+                    <div class="col-md-10 col-12 cuadro2 m-2" ng-show="pu14">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u> ¿Qué hacer en caso de emergencia? </u></b>
                         </div>
@@ -258,7 +258,7 @@
         </div>
 
         <!-- Especialistas-->
-        <div class="row p-5">
+        <div class="row p-5" id="especialistas">
             <div class="col-6">
                 <b class="size4 cabecera"> Especialistas: </b>
                 <br>
@@ -280,7 +280,7 @@
             <div class="col-6">
                 <div class="row justify-content-center">
                     <!-- Inicio PE1 --> 
-                    <div class="col-10 cuadro5 m-2" ng-show="pe1">
+                    <div class="col-md-10 col-12 cuadro5 m-2" ng-show="pe1">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u> ¿Qué documentos necesito para convertirme en un especialista en Healthy? </u></b>
                         </div>
@@ -300,7 +300,7 @@
                     </div>
                     <!-- Fin PE1 -->
                     <!-- Inicio PE2 --> 
-                    <div class="col-10 cuadro5 m-2" ng-show="pe2">
+                    <div class="col-md-10 col-12 cuadro5 m-2" ng-show="pe2">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u>¿Qué áreas de especialistas se encuentran disponibles?</u></b>
                         </div>
@@ -317,7 +317,7 @@
                     </div>
                     <!-- Fin PE2 --> 
                     <!-- Inicio PE3 --> 
-                    <div class="col-10 cuadro5 m-2" ng-show="pe3">
+                    <div class="col-md-10 col-12 cuadro5 m-2" ng-show="pe3">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u>Tengo una discapacidad. ¿Puedo usar Healthy?</u></b>
                         </div>
@@ -332,7 +332,7 @@
                     </div>
                     <!-- Fin PE3 -->
                     <!-- Inicio PE4 --> 
-                    <div class="col-10 cuadro5 m-2" ng-show="pe4">
+                    <div class="col-md-10 col-12 cuadro5 m-2" ng-show="pe4">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u>Tengo Problemas con el registro</u></b>
                         </div>
@@ -346,7 +346,7 @@
                     </div>
                     <!-- Fin PE4 -->
                     <!-- Inicio PE5 --> 
-                    <div class="col-10 cuadro5 m-2" ng-show="pe5">
+                    <div class="col-md-10 col-12 cuadro5 m-2" ng-show="pe5">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u>¿Cómo se calculan las tarifas en Healthy? </u></b>
                         </div>
@@ -359,7 +359,7 @@
                     </div>
                     <!-- Fin PE5 -->
                     <!-- Inicio PE6 --> 
-                    <div class="col-10 cuadro5 m-2" ng-show="pe6">
+                    <div class="col-md-10 col-12 cuadro5 m-2" ng-show="pe6">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u>No puedo terminar el servicio</u></b>
                         </div>
@@ -373,7 +373,7 @@
                     </div>
                     <!-- Fin PE6 -->
                     <!-- Inicio PE7 --> 
-                    <div class="col-10 cuadro5 m-2" ng-show="pe7">
+                    <div class="col-md-10 col-12 cuadro5 m-2" ng-show="pe7">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u>¿Cómo acepto una consulta?</u></b>
                         </div>
@@ -388,7 +388,7 @@
                     </div>
                     <!-- Fin PE7 -->
                     <!-- Inicio PE8 --> 
-                    <div class="col-10 cuadro5 m-2" ng-show="pe8">
+                    <div class="col-md-10 col-12 cuadro5 m-2" ng-show="pe8">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u>¿Cómo puedo identificar a mi usuario cuando me encuentre en el domicilio?</u></b>
                         </div>
@@ -403,7 +403,7 @@
                     </div>
                     <!-- Fin PE8 -->
                     <!-- Inicio PE9--> 
-                    <div class="col-10 cuadro5 m-2" ng-show="pe9">
+                    <div class="col-md-10 col-12 cuadro5 m-2" ng-show="pe9">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u>¿Dónde puedo encontrar mi historial de consultas?</u></b>
                         </div>
@@ -417,7 +417,7 @@
                     </div>
                     <!-- Fin PE9 -->
                     <!-- Inicio PE10 --> 
-                    <div class="col-10 cuadro5 m-2" ng-show="pe10">
+                    <div class="col-md-10 col-12 cuadro5 m-2" ng-show="pe10">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u>Tuve una mala experiencia en una consulta</u></b>
                         </div>
@@ -431,7 +431,7 @@
                     </div>
                     <!-- Fin PE10 -->
                     <!-- Inicio PE11 --> 
-                    <div class="col-10 cuadro5 m-2" ng-show="pe11">
+                    <div class="col-md-10 col-12 cuadro5 m-2" ng-show="pe11">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u>¿Qué debo hacer en caso de Emergencia?</u></b>
                         </div>
@@ -446,7 +446,7 @@
                     </div>
                     <!-- Fin PE11 -->
                     <!-- Inicio PE12 --> 
-                    <div class="col-10 cuadro5 m-2" ng-show="pe12">
+                    <div class="col-md-10 col-12 cuadro5 m-2" ng-show="pe12">
                         <div class="row p-3 justify-content-center cabecera size6">
                             <b> <u>¿Cómo agrego un contacto de emergencia? </u></b>
                         </div>
