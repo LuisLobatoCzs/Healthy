@@ -174,4 +174,34 @@ var app = angular.module("home", [])
                 break;
         }
     }
+
+
+
+    $scope.su1 = false;
+    $scope.su2 = false;
+    $scope.su3 = false;
+    
+    $scope.selectorSUR = function(){
+        $scope.su1 = false;
+        $scope.su2 = false;
+        $scope.su3 = false;
+    }
+
+    $scope.selectorSU = function(p){
+        switch (p){
+            case 1:
+                $scope.selectorSUR();
+                $scope.su1 = true;
+                break;
+            case 2:
+                $scope.selectorSUR();
+                $scope.su2 = true;
+                break;
+            case 3:
+                $scope.selectorSUR();
+                $scope.su3 = true;
+                break;
+        }
+    }
+
 })

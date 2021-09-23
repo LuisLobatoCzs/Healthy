@@ -30,8 +30,10 @@ Route::get('/especialista', function () {
     return view('especialista');
 });
 
-Route::get('/seguridad', function () {
-    return view('seguridad');
+Route::group(['prefix' => '/seguridad'], function() {
+    Route::get('/', function () { return view('seguridad'); });
+    Route::get('/usuario', function () { return view('seguridadUsuario'); });
+    Route::get('/especialista', function () { return view('seguridadEspecialista'); });
 });
 
 Route::get('/ayuda', function () {
