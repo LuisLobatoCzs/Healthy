@@ -289,7 +289,7 @@
                             Para ser parte de nuestra comunidad de usuario Especialista, necesitarás:<br>
                             ●	Cartilla de vacunación COVID<br>
                             ●	Identificación oficial vigente (INE)<br>
-                            ●	Cedula profesional<br>
+                            ●	Cédula profesional<br>
                             ●	Certificado de no antecedentes penales federales (de no más de 3 meses de haber sido expedido)<br>
                             ●	CURP<br>
                             ●	Licencia de conducir (en caso de registrar algún vehículo o moto)<br><br>
