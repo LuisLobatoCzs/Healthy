@@ -108,7 +108,7 @@
                                 <dd> <a href="/nosotros" class="pie"> Quienes somos </a> </dd>
                                 <dd> <a href="/nosotros" class="pie"> Lo que ofrecemos </a> </dd>
                                 <dd> <a href="/nosotros" class="pie"> Cómo funciona Health& </a> </dd>
-                                <dd> <a href="/" class="pie"> Privacidad / Términos y condiciones</a> </dd>
+                                <dd> <a href="#" class="pie"> Privacidad / Términos y condiciones</a> </dd>
                             </dl>
                         </div>
                         <div class="col-md-4 col-sm-4 col-6 size5">
