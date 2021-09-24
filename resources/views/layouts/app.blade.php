@@ -79,7 +79,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link cabecera" href="/">
+                            <a class="nav-link cabecera" href="/login">
                                 <button class="button1"> &nbsp;&nbsp; Iniciar Sesión &nbsp;&nbsp; </button>
                             </a>
                         </li>

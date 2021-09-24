@@ -13,9 +13,9 @@
             </b></p>
             <br>
             <p class="size5 text-center">
-            En healthy tu seguridad es primordial, por eso, implementamos 
-            funciones específicamente desarrolladas para que tu consulta sea una experiencia increíble, 
-            te invitamos a conocer cada una de estas funciones de seguridad.
+                En healthy tu seguridad es primordial, por eso, implementamos 
+                funciones específicamente desarrolladas para que tu consulta sea una experiencia increíble, 
+                te invitamos a conocer cada una de estas funciones de seguridad.
             </p>
         </div>
         <img class="img-fluid" src="/img/barra.png" style="position: absolute; bottom: -85px;">
@@ -23,7 +23,7 @@
 
     <div class="row pt-5 pb-5 justify-content-center">
         <div class="size3 pt-5">
-         <b>   Conoce más de las funciones de seguridad de Healthy</b>
+         <b>   Conoce más de las funciones de seguridad de Healthy  </b>
         </div>
     </div>
 
@@ -36,9 +36,9 @@
                 <div class="col-8 size5">
                     
                     <b>Seguridad para usuarios</b>
-                    <br><br>
-                    <a href="/seguridad/usuario" class="btn-verde-claro">
-                        Conoce más
+                    <br>
+                    <a href="/seguridad/usuario" class="btn-verde-claro size3">
+                        &ensp; Conoce más &ensp;
                     </a>
                     
                 </div>
@@ -50,9 +50,9 @@
                 <div class="col-8 size5">
 
                     <b>Seguridad para especialistas</b>
-                    <br><br>
-                    <a href="/seguridad/especialista" class="btn-verde-claro">
-                        Conoce más
+                    <br>
+                    <a href="/seguridad/especialista" class="btn-verde-claro size3">
+                        &ensp; Conoce más &ensp;
                     </a>
 
                 </div>
