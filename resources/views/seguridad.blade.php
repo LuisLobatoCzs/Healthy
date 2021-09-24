@@ -33,26 +33,28 @@
                 <div class="col-4">
                     <img src="/img/chica.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-8">
+                <div class="col-8 size5">
+                    
                     <b>Seguridad para usuarios</b>
-                </div>
-                <div >
-                    <a href="#">
-                        <object class="img-fluid" data="{{ asset('img/conoce.svg') }}" type="image/svg+xml"></object>
+                    <br><br>
+                    <a href="/seguridad/usuario" class="btn-verde-claro">
+                        Conoce más
                     </a>
+                    
                 </div>
             </div>
             <div class="row pb-5 centerY">
                 <div class="col-4">
                     <img src="/img/chico.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-8">
+                <div class="col-8 size5">
+
                     <b>Seguridad para especialistas</b>
-                </div>
-                <div >
-                    <a href="#">
-                        <object class="img-fluid" data="{{ asset('img/conoce.svg') }}" type="image/svg+xml"></object>
+                    <br><br>
+                    <a href="/seguridad/especialista" class="btn-verde-claro">
+                        Conoce más
                     </a>
+
                 </div>
             </div>
         </div>

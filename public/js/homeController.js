@@ -204,4 +204,31 @@ var app = angular.module("home", [])
         }
     }
 
+    $scope.se1 = false;
+    $scope.se2 = false;
+    $scope.se3 = false;
+    
+    $scope.selectorSER = function(){
+        $scope.se1 = false;
+        $scope.se2 = false;
+        $scope.se3 = false;
+    }
+
+    $scope.selectorSE = function(p){
+        switch (p){
+            case 1:
+                $scope.selectorSER();
+                $scope.se1 = true;
+                break;
+            case 2:
+                $scope.selectorSER();
+                $scope.se2 = true;
+                break;
+            case 3:
+                $scope.selectorSER();
+                $scope.se3 = true;
+                break;
+        }
+    }
+
 })

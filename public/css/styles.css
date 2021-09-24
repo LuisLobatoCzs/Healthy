@@ -239,6 +239,17 @@
     z-index: -1000;
 }
 
+
+.btn-verde-claro{
+    background-color: #98cdd5;
+    border-radius: 50vh;
+    color: #fff;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
 @media screen and (max-width: 800px) and (min-width: 0px) {
     .not_priority {
         display:none;
