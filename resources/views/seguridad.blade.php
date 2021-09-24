@@ -4,10 +4,10 @@
 
 <div class="col-12 colorTexto1 bg-index">
     <div class="row pt-5" style="position: relative;">
-        <div class="col-6">
+        <div class="col-md-6 col-sm-12 col-12">
             <img class="img-fluid" src="/img/abuelos.png" alt="">
         </div>
-        <div class="col-6 justify-content-center ">
+        <div class="col-md-6 col-sm-12 col-12 justify-content-center ">
             <p class="size3 text-center"><b>
                <b> Tu seguridad es primordial</b>
             </b></p>
@@ -30,10 +30,10 @@
     <div class="row justify-content-center">
         <div class="col-10">
             <div class="row pb-5 centerY">
-                <div class="col-4">
+                <div class="col-md-4 col-sm-5 col-12">
                     <img src="/img/chica.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-8 size5">
+                <div class="col-md-8 col-sm-7 col-12 size5">
                     
                     <b>Seguridad para usuarios</b>
                     <br>
@@ -44,10 +44,10 @@
                 </div>
             </div>
             <div class="row pb-5 centerY">
-                <div class="col-4">
+                <div class="col-md-4 col-sm-5 col-12">
                     <img src="/img/chico.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-8 size5">
+                <div class="col-md-8 col-sm-7 col-12 size5 text-center">
 
                     <b>Seguridad para especialistas</b>
                     <br>
