@@ -22,7 +22,7 @@
     </div>
 
     <div class="row pt-5 pb-5 justify-content-center">
-        <div class="size3 pt-5">
+        <div class="size3 pt-5 text-center">
          <b>   Conoce más de las funciones de seguridad de Healthy  </b>
         </div>
     </div>
@@ -47,7 +47,7 @@
                 <div class="col-md-4 col-sm-5 col-12">
                     <img src="/img/chico.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-md-8 col-sm-7 col-12 size5 text-center">
+                <div class="col-md-8 col-sm-7 col-12 size5">
 
                     <b>Seguridad para especialistas</b>
                     <br>
