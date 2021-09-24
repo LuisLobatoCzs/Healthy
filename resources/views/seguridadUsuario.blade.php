@@ -23,7 +23,7 @@
                     <dd> <a href="" class="colorTexto1 add" ng-click="selectorSU(3)"> <b> Después la consulta: </b> </a> </dd>
                 </dl>
             </div>
-            <div class="col-md-7 col-sm-10 col-10">
+            <div class="col-md-7 col-sm-11 col-11">
                 <div class="row justify-content-center textoBlanco">
                     <!-- Antes --> 
                     <div class="col-md-10 col-12 cuadro6 m-2" ng-show="su1">
