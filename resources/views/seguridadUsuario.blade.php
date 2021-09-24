@@ -3,10 +3,10 @@
 @section('content')
 <div class="col-12 bg-index colorTexto1">
     <div class="row centerY justify-content-center pt-3">
-        <div class="col-3">
+        <div class="col-md-3 col-sm-8 col-10">
             <img src="/img/familia.png" alt="familia" class="img-fluid">
         </div>
-        <div class="col-7">
+        <div class="col-md-7 col-sm-12 col-12">
             <p class="size4 text-center"><b> 
                 Con Healthy cuida la salud de tu familia sin preocupaciones 
             </b></p>
@@ -16,14 +16,14 @@
     
     <!-- Secciones de consulta -->
     <div class="row p-2 justify-content-center" id="especialistas">
-            <div class="col-3 text-center">
+            <div class="col-md-3 col-sm-10 col-10 text-center">
                 <dl class="size4">
                     <dd> <a href="" class="colorTexto1 add" ng-click="selectorSU(1)"> <b> Antes de la consulta: </b> </a> </dd>
                     <dd> <a href="" class="colorTexto1 add" ng-click="selectorSU(2)"> <b> Durante la consulta: </b> </a> </dd>
                     <dd> <a href="" class="colorTexto1 add" ng-click="selectorSU(3)"> <b> Después la consulta: </b> </a> </dd>
                 </dl>
             </div>
-            <div class="col-7">
+            <div class="col-md-7 col-sm-10 col-10">
                 <div class="row justify-content-center textoBlanco">
                     <!-- Antes --> 
                     <div class="col-md-10 col-12 cuadro6 m-2" ng-show="su1">
